@@ -1,0 +1,4 @@
+- http[s]?[:a-zA-Z0-9./]+. <- To match URL
+- [\(]?[0-9]{3}[\)-]?[0-9]{3}[-][0-9]{4} <- To identify phone-numbers
+- [a-zA-Z0-9]+@[a-zA-Z0-9.]+ <- To get email-ids
+- \b[A-Z\.]{2,} <- To find acronyms 

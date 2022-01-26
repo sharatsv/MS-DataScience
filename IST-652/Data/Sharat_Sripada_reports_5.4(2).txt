@@ -1,0 +1,194 @@
+Code-Diff:
+---------
+# open the file
+with open('Pitchers.csv', 'w', newline='') as csvfileout:
+    ALwriter = csv.writer(csvfileout, delimiter=',', quoting=csv.QUOTE_MINIMAL)
+    ALwriter.writerow(['Player', 'Team', 'Position'])
+    for player in playersList:
+        # select the players with salary over 1 million
+        if (player['position'] == 'Pitcher'):
+            ALwriter.writerow([player['name'], player['team'], player['position']])
+
+CSV-file (Pitchers.csv):
+-----------------------
+Player,Team,Position
+"Acevedo, Juan",New York Yankees,Pitcher
+"Anderson, Jason",New York Yankees,Pitcher
+"Clemens, Roger",New York Yankees,Pitcher
+"Contreras, Jose",New York Yankees,Pitcher
+"Hammond, Chris",New York Yankees,Pitcher
+"Hitchcock, Sterling",New York Yankees,Pitcher
+"Karsay, Steve",New York Yankees,Pitcher
+"Liever, Jon",New York Yankees,Pitcher
+"Mussina, Mike",New York Yankees,Pitcher
+"Osuna, Antonio",New York Yankees,Pitcher
+"Pettitte, Andy",New York Yankees,Pitcher
+"Rivera, Mariano",New York Yankees,Pitcher
+"Weaver, Jeff",New York Yankees,Pitcher
+"Wells, David",New York Yankees,Pitcher
+"Appier, Kevin",Anaheim Angels,Pitcher
+"Callaway, Mickey",Anaheim Angels,Pitcher
+"Donnelly, Brendan",Anaheim Angels,Pitcher
+"Lackey, John",Anaheim Angels,Pitcher
+"Ortiz, Ramon",Anaheim Angels,Pitcher
+"Percival, Troy",Anaheim Angels,Pitcher
+"Rodriquez, Francisco",Anaheim Angels,Pitcher
+"Schoeneweis, Scott",Anaheim Angels,Pitcher
+"Sele, Aaron",Anaheim Angels,Pitcher
+"Shields, Scot",Anaheim Angels,Pitcher
+"Washburn, Jarrod",Anaheim Angels,Pitcher
+"Weber, Ben",Anaheim Angels,Pitcher
+"Wise, Matt",Anaheim Angels,Pitcher
+"Burkett, John",Boston Red Sox,Pitcher
+"Embree, Alan",Boston Red Sox,Pitcher
+"Fossum, Casey",Boston Red Sox,Pitcher
+"Fox, Chad",Boston Red Sox,Pitcher
+"Gonzalez, Dicky",Boston Red Sox,Pitcher
+"Howry, Bobby",Boston Red Sox,Pitcher
+"Lowe, Derek",Boston Red Sox,Pitcher
+"Lyon, Brandon",Boston Red Sox,Pitcher
+"Martinez, Pedro",Boston Red Sox,Pitcher
+"Mendoza, Ramiro",Boston Red Sox,Pitcher
+"Person, Robert",Boston Red Sox,Pitcher
+"Timlin, Mike",Boston Red Sox,Pitcher
+"Wakefield, Tim",Boston Red Sox,Pitcher
+"White, Matt",Boston Red Sox,Pitcher
+"Anderson, Brian",Cleveland Indians,Pitcher
+"Baez, Danys",Cleveland Indians,Pitcher
+"Bere, Jason",Cleveland Indians,Pitcher
+"Davis, Jason",Cleveland Indians,Pitcher
+"Lee, Cliff",Cleveland Indians,Pitcher
+"Mulholland, Terry",Cleveland Indians,Pitcher
+"Myette, Aaron",Cleveland Indians,Pitcher
+"Riske, David",Cleveland Indians,Pitcher
+"Rodriguez, Ricardo",Cleveland Indians,Pitcher
+"Sabathia, CC",Cleveland Indians,Pitcher
+"Sadler, Carl",Cleveland Indians,Pitcher
+"Santiago, Jose",Cleveland Indians,Pitcher
+"Traber, Billy",Cleveland Indians,Pitcher
+"Westbrook, Jake",Cleveland Indians,Pitcher
+"Wickman, Bob",Cleveland Indians,Pitcher
+"Wohlers, Mark",Cleveland Indians,Pitcher
+"Creek, Doug",Toronto Blue Jays ,Pitcher
+"Escobar, Kelvim",Toronto Blue Jays ,Pitcher
+"File, Bob",Toronto Blue Jays ,Pitcher
+"Halladay, Roy",Toronto Blue Jays ,Pitcher
+"Hendrickson, Mark",Toronto Blue Jays ,Pitcher
+"Lidle, Cory",Toronto Blue Jays ,Pitcher
+"Linton, Doug",Toronto Blue Jays ,Pitcher
+"Lopez, Aquilino",Toronto Blue Jays ,Pitcher
+"Miller, Trever",Toronto Blue Jays ,Pitcher
+"Politte, Cliff",Toronto Blue Jays ,Pitcher
+"Sturtze, Tanyon",Toronto Blue Jays ,Pitcher
+"Tam, Jeff",Toronto Blue Jays ,Pitcher
+"Walker, Pete",Toronto Blue Jays ,Pitcher
+"Bauer, Rick",Baltimore Orioles,Pitcher
+"Bedard, Erik",Baltimore Orioles,Pitcher
+"Daal, Omar",Baltimore Orioles,Pitcher
+"Erickson, Scott",Baltimore Orioles,Pitcher
+"Groom, Buddy",Baltimore Orioles,Pitcher
+"Helling, Rick",Baltimore Orioles,Pitcher
+"Hentgen, Pat",Baltimore Orioles,Pitcher
+"Johson, Jason",Baltimore Orioles,Pitcher
+"Julio, Jorge",Baltimore Orioles,Pitcher
+"Ligtenberg, Kerry",Baltimore Orioles,Pitcher
+"Lopez, Rodrigo",Baltimore Orioles,Pitcher
+"Ponson, Sidney",Baltimore Orioles,Pitcher
+"Roberts, Willis",Baltimore Orioles,Pitcher
+"Ryan, BJ",Baltimore Orioles,Pitcher
+"Bierbrodt, Nick",Tampa Bay Devil Rays,Pitcher
+"Carter, Lance",Tampa Bay Devil Rays,Pitcher
+"Colome, Jesus",Tampa Bay Devil Rays,Pitcher
+"Harper, Travis",Tampa Bay Devil Rays,Pitcher
+"Kennedy, Joe",Tampa Bay Devil Rays,Pitcher
+"McClung, Seth",Tampa Bay Devil Rays,Pitcher
+"Parque, Jim",Tampa Bay Devil Rays,Pitcher
+"Parris, Steve",Tampa Bay Devil Rays,Pitcher
+"Seay, Bobby",Tampa Bay Devil Rays,Pitcher
+"Sosa, Jorge",Tampa Bay Devil Rays,Pitcher
+"Venafro, Mike",Tampa Bay Devil Rays,Pitcher
+"Zambrano, Victor",Tampa Bay Devil Rays,Pitcher
+"Affeldt, Jeremy",Kansas City Royals,Pitcher
+"Asencio, Miguel",Kansas City Royals,Pitcher
+"Bukvich, Ryan",Kansas City Royals,Pitcher
+"Carrasco, DJ",Kansas City Royals,Pitcher
+"George, Chris",Kansas City Royals,Pitcher
+"Grimsley, Jason",Kansas City Royals,Pitcher
+"Hernandez, Runelvys",Kansas City Royals,Pitcher
+"Lopez, Albie",Kansas City Royals,Pitcher
+"MacDougal, Mike",Kansas City Royals,Pitcher
+"May, Darrell",Kansas City Royals,Pitcher
+"Wilson, Kris",Kansas City Royals,Pitcher
+"Fetters, Mike",Minnesota Twins,Pitcher
+"Fiore, Tony",Minnesota Twins,Pitcher
+"Guardado, Eddie",Minnesota Twins,Pitcher
+"Hawkins, Latroy",Minnesota Twins,Pitcher
+"Lohse, Kyle",Minnesota Twins,Pitcher
+"Mays, Joe",Minnesota Twins,Pitcher
+"Milton, Eric",Minnesota Twins,Pitcher
+"Radke, Brad",Minnesota Twins,Pitcher
+"Reed, Rick",Minnesota Twins,Pitcher
+"Rogers, Kenny",Minnesota Twins,Pitcher
+"Romero, JC",Minnesota Twins,Pitcher
+"Santana, Johan",Minnesota Twins,Pitcher
+"Buehrle, Mark",Chicago White Sox,Pitcher
+"Colon, Bartolo",Chicago White Sox,Pitcher
+"Garland, Jon",Chicago White Sox,Pitcher
+"Glover, Gary",Chicago White Sox,Pitcher
+"Gordon, Tom",Chicago White Sox,Pitcher
+"Koch, Billy",Chicago White Sox,Pitcher
+"Loaiza, Esteban",Chicago White Sox,Pitcher
+"Marte, Damaso",Chicago White Sox,Pitcher
+"Stewart, Josh",Chicago White Sox,Pitcher
+"White, Ribk",Chicago White Sox,Pitcher
+"Wright, Danny",Chicago White Sox,Pitcher
+"Wunsch, Kelly",Chicago White Sox,Pitcher
+"Anderson, Matt",Detroit Tigers,Pitcher
+"Bernero, Adam",Detroit Tigers,Pitcher
+"Bonderman, Jeremy",Detroit Tigers,Pitcher
+"Cornejo, Nate",Detroit Tigers,Pitcher
+"German, Franklyn",Detroit Tigers,Pitcher
+"Knotts, Gary",Detroit Tigers,Pitcher
+"Ledezma, Wilfredo",Detroit Tigers,Pitcher
+"Maroth, Mike",Detroit Tigers,Pitcher
+"Patterson, Danny",Detroit Tigers,Pitcher
+"Roney, Matt",Detroit Tigers,Pitcher
+"Sparks, Steve",Detroit Tigers,Pitcher
+"Spurling, Chris",Detroit Tigers,Pitcher
+"Walker, Jamie",Detroit Tigers,Pitcher
+"Carrara, Giovanni",Seattle Mariners,Pitcher
+"Franklin, Ryan",Seattle Mariners,Pitcher
+"Garcia, Freddy",Seattle Mariners,Pitcher
+"Hasegawa, Shigetoshi",Seattle Mariners,Pitcher
+"Mateo, Julio",Seattle Mariners,Pitcher
+"Meche, Gil",Seattle Mariners,Pitcher
+"Moyer, Jamie",Seattle Mariners,Pitcher
+"Nelson, Jeff",Seattle Mariners,Pitcher
+"Pineiro, Joel",Seattle Mariners,Pitcher
+"Rhodes, Arthur",Seattle Mariners,Pitcher
+"Sasaki, Kazuhiro",Seattle Mariners,Pitcher
+"Bowie, Micah",Oakland Athletics,Pitcher
+"Bradford, Chad",Oakland Athletics,Pitcher
+"Fikac, Jeremy",Oakland Athletics,Pitcher
+"Foulke, Keith",Oakland Athletics,Pitcher
+"Halama, John",Oakland Athletics,Pitcher
+"Hudson, Tim",Oakland Athletics,Pitcher
+"Lilly, Ted",Oakland Athletics,Pitcher
+"Mecir, Jim",Oakland Athletics,Pitcher
+"Mulder, Mark",Oakland Athletics,Pitcher
+"Neu, Mike",Oakland Athletics,Pitcher
+"Rincon, Ricardo",Oakland Athletics,Pitcher
+"Zito, Barry",Oakland Athletics,Pitcher
+"Cordero, Francisco",Texas Rangers,Pitcher
+"Fultz, Aaron",Texas Rangers,Pitcher
+"Garcia, Reynaldo",Texas Rangers,Pitcher
+"Lewis, Colby",Texas Rangers,Pitcher
+"Nitkowski, CJ",Texas Rangers,Pitcher
+"Park, Chan Ho",Texas Rangers,Pitcher
+"Powell, Jay",Texas Rangers,Pitcher
+"Thomson, John",Texas Rangers,Pitcher
+"Urbina, Ugueth",Texas Rangers,Pitcher
+"Valdes, Ismael",Texas Rangers,Pitcher
+"Van Poppel, Todd",Texas Rangers,Pitcher
+"Yan, Esteban",Texas Rangers,Pitcher
+"Zimmerman, Jeff",Texas Rangers,Pitcher

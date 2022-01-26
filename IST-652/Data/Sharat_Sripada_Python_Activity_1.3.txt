@@ -1,0 +1,39 @@
+Venkatas-iMac:IST-652 venkatasharatsripada$ python
+
+WARNING: Python 2.7 is not recommended. 
+This version is included in macOS for compatibility with legacy software. 
+Future versions of macOS will not include Python 2.7. 
+Instead, it is recommended that you transition to using 'python3' from within Terminal.
+
+Python 2.7.16 (default, Jun  5 2020, 22:59:21) 
+[GCC 4.2.1 Compatible Apple LLVM 11.0.3 (clang-1103.0.29.20) (-macos10.15-objc- on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> x=43
+>>> x=x+1
+>>> print(x)
+44
+>>> x=input('Enter Hours:')
+Enter Hours:35
+>>> y=input('Enter Rate:')
+Enter Rate:2.75
+>>> pay=x*y
+>>> print 'Pay:',pay
+Pay: 96.25
+>>> width=17
+>>> height=12.0
+>>> width/2
+8
+>>> type(width/2)
+<type 'int'>
+>>> width/2.0
+8.5
+>>> type(width/2.0)
+<type 'float'>
+>>> height/3
+4.0
+>>> type(height/3)
+<type 'float'>
+>>> 1+2*5
+11
+>>> type(1+2*5)
+<type 'int'>

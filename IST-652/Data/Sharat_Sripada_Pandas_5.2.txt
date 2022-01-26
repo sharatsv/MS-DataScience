@@ -1,0 +1,51 @@
+import pandas as pd
+
+state_data = {'State':['Alabama','Alaska','Arizona','Arkansas'],
+              'PostCode':['AL','AK','AZ','AR'],
+              'Area':['52,423','656,424','*','53,182'],
+              'Pop':['4,040,587','550,043','3,665,228','2,350,750']}
+
+stdf = pd.DataFrame(state_data, columns=['State', 'PostCode', 'Area', 'Pop'])
+
+# Display the table
+print(stdf)
+
+# Index the table by 'State'.
+stdf = stdf.set_index('State')
+
+# Replace the '*' with '0'.
+stdf = stdf.replace('*', '0')
+
+print(stdf)
+
+# Define a function to replace ',' with ''.
+def item_replace(xstr):
+    return xstr.replace(',', '')
+
+# Use this function to replace the commas in 'Area' and 'Pop'.
+stdf['Area'] = stdf['Area'].map(item_replace)
+stdf['Pop'] = stdf['Pop'].map(item_replace)
+
+print(stdf)
+
+'''
+Output:
+      State PostCode     Area        Pop
+0   Alabama       AL   52,423  4,040,587
+1    Alaska       AK  656,424    550,043
+2   Arizona       AZ        *  3,665,228
+3  Arkansas       AR   53,182  2,350,750
+         PostCode     Area        Pop
+State                                
+Alabama        AL   52,423  4,040,587
+Alaska         AK  656,424    550,043
+Arizona        AZ        0  3,665,228
+Arkansas       AR   53,182  2,350,750
+         PostCode    Area      Pop
+State                             
+Alabama        AL   52423  4040587
+Alaska         AK  656424   550043
+Arizona        AZ       0  3665228
+Arkansas       AR   53182  2350750
+
+'''

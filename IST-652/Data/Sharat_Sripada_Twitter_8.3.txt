@@ -1,0 +1,39 @@
+Code:
+-----
+import pymongo
+import operator
+
+client = pymongo.MongoClient('localhost', 27017)
+
+# Connect to the bball2 db/collection
+db = client.bball2
+coll = db.bbcoll2
+
+docs = coll.find()
+tweets = [doc for doc in docs]
+print('Read {0} records from db/collection: {1}/{2}'.format(len(doclist), db.name, coll.name))
+
+# Get number of active users
+all_users = set()
+for tweet in tweets:
+    all_users.add(tweet['user']['name'])
+
+print('Number of active-users: {0}'.format(len(all_users)))
+    
+# Get username with most tweets from data-set
+tweet_counts = {}
+for tweet in tweets:
+    user = tweet['user']['name']
+    try:
+        tweet_counts[user] += 1
+    except KeyError as e:    
+        tweet_counts[user] = 1
+    
+sorted_tweet_counts = max(tweet_counts.items(), key=operator.itemgetter(1))
+print('Most tweets by: {0} (count = {1})'.format(sorted_tweet_counts[0], sorted_tweet_counts[1]))
+
+Output:
+-------
+Read 2000 records from db/collection: bball2/bbcoll2
+Number of active-users: 1836
+Most tweets by: RaulOrozco (count = 23)

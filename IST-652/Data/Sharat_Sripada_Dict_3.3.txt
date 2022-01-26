@@ -1,0 +1,15 @@
+>>> phone_dict={'A':'111-222-3333', 'B':'222-333-3111', 'C':'333-311-1222', 'E':'222-333-4444', 'D':'311-122-2333'}
+>>> phone_dict.keys()
+dict_keys(['A', 'B', 'C', 'E', 'D'])
+>>> sorted(phone_dict.keys())
+['A', 'B', 'C', 'D', 'E']
+>>> sorted(phone_dict)
+['A', 'B', 'C', 'D', 'E']
+>>> for key in sorted(phone_dict):
+...     print('{:s}: {:s}'.format(key, phone_dict[key]))
+... 
+A: 111-222-3333
+B: 222-333-3111
+C: 333-311-1222
+D: 311-122-2333
+E: 222-333-4444

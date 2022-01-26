@@ -1,0 +1,93 @@
+Code:
+# Stacking and unstacking data
+
+persondict = {'person':['Bob','Alice','Steve'], 
+              'age':[32, 24, 64], 
+              'weight':[128, 86, 95]}
+
+result = pd.DataFrame(persondict, columns=['person', 'age', 'weight'])
+print(result)
+
+#Index the table by person
+result = result.set_index('person')
+print('\n --- Set index --- \n {0}'.format(result))
+
+#Stack into a tall object
+persontall = result.stack()
+print('\n --- Stack/Tall --- \n {0}'.format(persontall))
+
+#Reset the index
+persontall = persontall.reset_index()
+print('\n --- Reset-index --- \n {0}'.format(persontall))
+
+
+
+#Rename the columns to 'person', 'attribute', 'value'
+persontall.columns=['person', 'attribute', 'value']
+print('\n --- Rename columns --- \n {0}'.format(persontall))
+
+#5. Convert back to original using unstack
+print('\n --- Unstack --- \n {0}'.format(result.unstack()))
+
+#6. Pivot the table
+persontall.pivot('person', 'attribute', 'value')
+
+
+Output:
+------
+  person  age  weight
+0    Bob   32     128
+1  Alice   24      86
+2  Steve   64      95
+
+ --- Set index --- 
+         age  weight
+person             
+Bob      32     128
+Alice    24      86
+Steve    64      95
+
+ --- Stack/Tall --- 
+ person        
+Bob     age        32
+        weight    128
+Alice   age        24
+        weight     86
+Steve   age        64
+        weight     95
+dtype: int64
+
+ --- Reset-index --- 
+   person level_1    0
+0    Bob     age   32
+1    Bob  weight  128
+2  Alice     age   24
+3  Alice  weight   86
+4  Steve     age   64
+5  Steve  weight   95
+
+ --- Rename columns --- 
+   person attribute  value
+0    Bob       age     32
+1    Bob    weight    128
+2  Alice       age     24
+3  Alice    weight     86
+4  Steve       age     64
+5  Steve    weight     95
+
+ --- Unstack --- 
+         person
+age     Bob        32
+        Alice      24
+        Steve      64
+weight  Bob       128
+        Alice      86
+        Steve      95
+dtype: int64
+Out[31]:
+attribute	age	weight
+person		
+Alice	24	86
+Bob	32	128
+Steve	64	95
+

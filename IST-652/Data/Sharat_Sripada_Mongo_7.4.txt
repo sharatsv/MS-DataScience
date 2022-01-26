@@ -1,0 +1,24 @@
+# Create a new table database 
+db = client.peopledb
+
+# Create a new collection/table
+people_collections = db.peopleinfo
+
+peoplelist = [{ "name": "Britney Sykes", "age": 21 , 'position':'Guard'}, 
+              { "name": "Briana Day", "age": 19, 'position':'Center'}, 
+              { "name": "Alexis Peterson", "age": 21, 'position':'Guard' }, 
+              { "name": "Gabby Cooper", "age": 18, 'position':'Guard'}]
+
+# Insert docs into collections
+people_collections.insert_many(peoplelist)
+
+# show data
+docs = people_collections.find()
+for doc in docs:
+    if doc['age'] < 20:
+        print(doc['name'], doc['age'], doc['position'])
+
+Output:
+------
+Briana Day 19 Center
+Gabby Cooper 18 Guard

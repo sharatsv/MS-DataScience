@@ -1,0 +1,33 @@
+>>> 15
+15
+>>> 0xFF
+255
+>>> '\u0394'
+'Δ'
+>>> "\U00000394"
+'Δ'
+>>> "\N{GREEK CAPITAL LETTER DELTA}"
+'Δ'
+>>> b'\xFFab'
+b'\xffab'
+>>> type(b'ab')
+<class 'bytes'>
+>>> type(b'\xFFab')
+<class 'bytes'>
+>>> len(b'\xFFab')
+3
+>>> u=chr(40960) + 'abcd' + chr(1972)
+>>> u
+'ꀀabcd\u07b4'
+>>> print(u)
+ꀀabcd޴
+>>> u.encode('ascii','ignore')
+b'abcd'
+>>> u.encode('ascii','replace')
+b'?abcd?'
+>>> u.encode('ascii', 'xmlcharrefreplace')
+b'&#40960;abcd&#1972;'
+>>> u.encode('ascii', 'backslashreplace')
+b'\\ua000abcd\\u07b4'
+>>> 
+

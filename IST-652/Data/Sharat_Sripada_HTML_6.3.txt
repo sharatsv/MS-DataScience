@@ -1,0 +1,37 @@
+From Jupyter Notebook:
+
+# urllib + beautifulsoup
+from urllib import request
+url = 'https://www.nytimes.com/2020/11/11/opinion/biden-trump-foreign-policy.html?action=click&module=Opinion&pgtype=Homepage'
+response = request.urlopen(url)
+html = response.read().decode('utf8')
+html[:500]
+
+# Using BeautifulSoup library
+from bs4 import BeautifulSoup
+urldata = BeautifulSoup(html, "html.parser")
+
+# Search for anchors by finding all 'a' attribs 
+anchors = urldata.find_all('a')
+    
+# Walk the list-type object anchors and find all the href instances
+for i in anchors[-5:]:
+    if i.has_attr('href'):
+        print(i.prettify())
+
+Output:
+<a class="css-jq1cx6" data-testid="footer-link" href="https://spiderbites.nytimes.com">
+ Site Map
+</a>
+<a class="css-jq1cx6" data-testid="footer-link" href="https://www.nytimes.com/ca/?action=click&amp;region=Footer&amp;pgtype=Homepage">
+ Canada
+</a>
+<a class="css-jq1cx6" data-testid="footer-link" href="https://www.nytimes.com/international/?action=click&amp;region=Footer&amp;pgtype=Homepage">
+ International
+</a>
+<a class="css-jq1cx6" data-testid="footer-link" href="https://help.nytimes.com/hc/en-us">
+ Help
+</a>
+<a class="css-jq1cx6" data-testid="footer-link" href="https://www.nytimes.com/subscription?campaignId=37WXW">
+ Subscriptions
+</a>

@@ -1,0 +1,32 @@
+file = open('NBA-Attendance-1989.txt', 'r')
+
+# Initialize lists for each data-type
+attendance = []
+ticket = []
+team = []
+
+for line in file:
+ items = (line.strip()).split()
+ team.append(items[0])
+ attendance.append(int(items[1]))
+ ticket.append(float(items[2]))
+
+# Get list index
+max_attend_index = attendance.index(max(attendance))
+max_ticket_index = ticket.index(max(ticket))
+
+print('Total attendance: {:d}'.format(sum(attendance)))
+print('Avg attendance: {:.2f}'.format(float(sum(attendance)/len(attendance))))
+print('Max attendance: {:d} for TEAM: {:s}'.format(attendance[max_attend_index], 
+                                                   team[max_attend_index]))
+print('Max ticket-price: {:f} for TEAM: {:s}'.format(ticket[max_ticket_index], 
+                                                   team[max_ticket_index]))
+
+'''
+Output:
+$ python3 Sharat_Sripada_Exploration_3.2.py
+Total attendance: 424189
+Avg attendance: 15710.70
+Max attendance: 26160 for TEAM: Minnesota
+Max ticket-price: 29.180000 for TEAM: LA_Lakers
+'''

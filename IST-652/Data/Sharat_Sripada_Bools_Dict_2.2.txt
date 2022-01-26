@@ -1,0 +1,30 @@
+>>> mp='Today is a Great DAY'
+>>> mp.lower()
+'today is a great day'
+>>> mp.upper()
+'TODAY IS A GREAT DAY'
+>>> # strip() removes spaces, chars before and after the string
+>>> mp.strip()
+'Today is a Great DAY'
+>>> mp1='Today is a Great DAY\n'
+>>> mp1.strip()
+'Today is a Great DAY'
+>>> mp1.strip('\n')
+'Today is a Great DAY'
+>>> mp1='  Today is a Great DAY\n'
+>>> mp1.strip('\n')
+'  Today is a Great DAY'
+>>> # Remove the space and \n using strip()
+>>> mp1.strip('\ \n')
+'Today is a Great DAY'
+>>> mp.startswith('T')
+True
+>>> mp.startswith('X')
+False
+>>> mp.find('Z')
+-1
+>>> mp.find('G')
+11
+>>> # Confirm using the string index
+>>> mp[11]
+'G'
