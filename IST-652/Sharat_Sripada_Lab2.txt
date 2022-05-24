@@ -1,0 +1,60 @@
+>>> stock = {"banana": 6, "apple": 0, "orange": 32, "pear": 15}
+>>> prices = {"banana": 4, "apple": 2, "orange": 1.5, "pear": 3} 
+
+a. Show the expression that gets the value of the stock dictionary at the key ‘orange’. Show a
+statement that adds an item to the stock dictionary called ‘cherry’ with some integer value and
+that adds ‘cherry’ to the prices dictionary with a numeric value. (Or pick your own fruit name.) 
+
+>>> stock['orange']
+32
+>>> stock['cherry']=14
+>>> stock
+{'banana': 6, 'apple': 0, 'orange': 32, 'pear': 15, 'cherry': 14}
+
+
+b. Write the code for a loop that iterates over the stock dictionary and prints each key and value. v
+
+>>> for _key in stock:
+...     print(_key, stock[_key])
+... 
+banana 6
+apple 0
+orange 32
+pear 15
+cherry 14
+
+c. Suppose that we have a list:
+groceries = [‘apple’, ‘banana’, ‘pear’]
+Write the code that will sum the total number in stock of the items in the groceries list. 
+
+>>> groceries = ['apple', 'banana', 'pear']
+>>> sum=0
+>>> for item in groceries:
+...     sum+=stock[item]
+... 
+>>> print(sum)
+21
+
+d. Write the code that can print out the total value in stock of all the items. This program can
+iterate over the stock dictionary and for each item multiply the number in stock times the price
+of that item in the prices dictionary. (This can include the items for ‘cherry’ or not, as you
+choose.) 
+
+>>> value=0
+>>> for fruit in stock:
+...     value+=(stock[fruit] * prices[fruit])
+... 
+Traceback (most recent call last):
+  File "<stdin>", line 2, in <module>
+KeyError: 'cherry'
+>>> prices['cherry']=2
+>>> for fruit in stock:
+...     value+=(stock[fruit] * prices[fruit])
+... 
+>>> value=0
+>>> for fruit in stock:
+...     value+=(stock[fruit] * prices[fruit])
+... 
+>>> print(value)
+145.0
+>>> 
