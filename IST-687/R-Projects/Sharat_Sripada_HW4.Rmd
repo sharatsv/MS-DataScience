@@ -1,0 +1,364 @@
+---
+title: "Sharat_Sripada_HW4"
+output:
+  word_document: default
+  html_document: default
+---
+
+``` {r pkgs}
+# install.packages('tm')
+# install.packages('tmap')
+# install.packages('quanteda')
+# install.packages('philentropy')
+# install.packages('factoextra')
+
+library(tm)
+library(tmap)
+library(quanteda)
+library(RColorBrewer)
+library(wordcloud)
+library(philentropy)
+library(factoextra)
+```
+
+## Introduction
+
+This week delves on concepts of clustering viz. k-means, HAC and various distance measurements that aid in the process namely, Eucledian and cosine methods. In particular, the home-work will attempt to solve the problem of classifying disputed papers between authors Hamilton and Madison.
+
+We begin our analysis by ingesting a corpus of documents and running through the following pipelines:
+
+
+ - loading the documents using the R Corpus function
+
+
+ - build a document term matrix (DTM)
+
+
+ - visualize wordclouds
+
+
+ - dive into the core concepts of clustering
+
+
+ - classify disputed documents from results of clustering
+
+``` {r load-data}
+#load the data/corpus
+FedPapersCorpus <- Corpus(DirSource("/Users/venkatasharatsripada/Downloads/IST707repo-master/FedPapersCorpus"))
+numFedPapers <- length(FedPapersCorpus)
+```
+
+``` {r summary}
+summary(FedPapersCorpus)
+```
+
+
+``` {r meta}
+# meta(FedPapersCorpus[[1]])
+```
+
+
+``` {r wordfreq}
+#Ignore extremely rare words - <2% of documents
+(minTermFreq <- 0.02 * numFedPapers)
+
+#Also, ignore common words - >75%-95% of documents
+(maxTermFreq <- 0.95 * numFedPapers)
+```
+
+
+
+``` {r DTM}
+# 
+Papers_DTM <- DocumentTermMatrix(FedPapersCorpus,
+                                 control=list(
+                                   stopwords=TRUE,
+                                   wordLengths=c(3,15),
+                                   removePunctuation=T,
+                                   removeNumbers=T,
+                                   tolower=T,
+                                   stemming=T,
+                                   remove_separators=T,
+                                   bounds=list(global=c(minTermFreq, maxTermFreq))
+                                 ))
+DTM <- as.matrix(Papers_DTM)
+(DTM[1:11,1:10])
+```
+
+``` {r freq}
+col_WordFreq <- colSums(as.matrix(Papers_DTM))
+(head(col_WordFreq))
+
+#Length of all words
+(length(col_WordFreq))  
+
+(row_WordFreq <- rowSums(as.matrix(Papers_DTM)))
+
+```
+
+
+### Normalization
+
+``` {r norm}
+#create a normalized version of Papers_DTM
+Papers_M <- as.matrix(Papers_DTM)
+Papers_M_N1 <- apply(Papers_M, 1, function(i) round(i/sum(i),3))
+Papers_Matrix_Norm <- t(Papers_M_N1)
+
+#compare the original and normalized version
+(Papers_M[c(1:11),c(1000:1010)])
+(Papers_Matrix_Norm[c(1:11),c(1000:1010)])
+
+#verify for word 'embarrass' in document 'dispt_fed_62.txt' if the 
+#normalization math is correct
+
+(row_WordFreq)
+#dispt_fed_62 has 798 words in total
+#there are 2x words of 'embarrass' so, 2/798 = 0.0025 ~0.003 (3 places after decimal)
+```
+
+
+### Data-structures
+
+```{r convert-ds}
+Papers_dtm_matrix <- as.matrix(Papers_DTM)
+str(Papers_dtm_matrix)
+
+Papers_dtm_matrix[c(1:11),c(2:10)]
+
+```
+
+### Convert to a data-frame
+
+``` {r to_df}
+Papers_DF <- as.data.frame(as.matrix(Papers_DTM))
+str(Papers_DF)
+```
+
+### Example word cloud
+
+Breaking the word clouds based on the document list:
+- 1:11 -> disputed papers
+- 12:62 -> Hamilton papers
+- 63:70 -> Ignoring HM_fed*, Jay_fed* papers
+- 71:85 -> Madison papers
+
+``` {r wc-1}
+disputedpaperswc <- wordcloud(colnames(Papers_dtm_matrix), Papers_dtm_matrix[11,])
+```
+
+``` {r sort-head}
+(head(sort(as.matrix(Papers_DTM)[11,], decreasing = TRUE), n=50))
+```
+
+``` {r hamilton-paperswc}
+HamiltonPapersWC <- wordcloud(colnames(Papers_dtm_matrix), Papers_dtm_matrix[12:62, ])
+```
+
+``` {r madison-paperswc}
+MadisonPapersWC <- wordcloud(colnames(Papers_dtm_matrix), Papers_dtm_matrix[71:85, ])
+```
+
+
+## Analysis
+
+### Distance metrics
+
+``` {r dist-metrics}
+m <- Papers_dtm_matrix
+m_norm <- Papers_Matrix_Norm
+
+distMatrix_E <- distance(m, method='euclidean', use.row.names = TRUE)
+# print(distMatrix_E)
+heatmap(distMatrix_E)
+
+distMatrix_M <- distance(m, method='manhattan', use.row.names = TRUE)
+# print(distMatrix_M)
+heatmap(distMatrix_M)
+
+distMatrix_C <- distance(m, method = 'cosine', use.row.names = TRUE)
+# print(distMatrix_C)
+heatmap(distMatrix_C)
+
+distMatrix_C_norm <- distance(m_norm, method='cosine', use.row.names = TRUE)
+# print(distMatrix_C_norm)
+heatmap(distMatrix_C_norm)
+
+```
+
+
+The dist() function has issues with 'cosine' methods. Instead, used distance() function and obtain cosine similarity visualization. Heat-maps prove cosine similarity measurements are likely more suitable for document analysis. 
+
+
+### Data
+
+We will explore the following two methods to cluster the data and determine an author to the disputed papers:
+
+
+- K-means algorithm
+
+
+- HAC algorithm
+
+Given that the number of authors here are namely Hamilton and Madison, we will start with choosing number of clusters = 2. 
+
+
+First, is the k-means algorithm:
+
+``` {r kmeans-exp1}
+k <- 2
+set.seed(5)
+km.res <- kmeans(Papers_dtm_matrix, k, nstart=100, iter.max=50)
+str(km.res)
+#plot a visualization
+fviz_cluster(km.res, Papers_dtm_matrix)
+
+
+```
+
+```{r kmeans-exp2}
+k <- 7
+km.res <- kmeans(Papers_Matrix_Norm, k, nstart=50, iter.max=50)
+str(km.res)
+#plot a visualization
+fviz_cluster(km.res, Papers_Matrix_Norm)
+
+```
+
+Now, we explore the HAC algorithms
+
+
+``` {r hac-euclidean}
+#Euclidean distance measure
+dist.eul <- as.dist(distMatrix_E)
+groups_E <- hclust(dist.eul, method='ward.D')
+
+#Visualizations
+plot(groups_E, cex=0.5, font=22, hang=-1, main="HAC cluster dendogram with Euclidean Similarity")
+rect.hclust(groups_E, k=2)
+```
+
+
+
+``` {r hac-cosine}
+#Cosine distance measure
+dist.cos <- as.dist(distMatrix_C)
+groups_C <- hclust(dist.cos, method='ward.D')
+
+#Visualizations
+plot(groups_C, cex=0.5, font=22, hang=-1, main="HAC cluster dendogram with Cosine Similarity")
+rect.hclust(groups_C, k=2)
+```
+
+
+
+
+``` {r hac-cosine-norm}
+#Cosine distance measure (Normalized)
+dist.cosnorm <- as.dist(distMatrix_C_norm)
+groups_C_norm <- hclust(dist.cosnorm, method='ward.D')
+
+#Visualizations
+plot(groups_C_norm, cex=0.5, font=22, hang=-1, main="HAC cluster dendogram with Cosine Similarity (Normalized")
+rect.hclust(groups_C_norm, k=2)
+```
+
+
+### Analysis and Results
+
+### K-Means
+
+
+Here are some results/observations with experiments around different cluster sizes:
+
+
+- cluster-size=2
+
+
+**SSEs**
+
+
+Within cluster sum of squares by cluster is high:
+
+
+[1] 174194.7   6447.5
+
+
+This is an indication of high deviation between data-points and the centroid which we would ideally like to be lower. To explore k-means further, we could consider using the k-medoids/expectation-max or PAM algorithms. 
+
+
+**Data**
+
+
+Most of the data-points were grouped into cluster-1 and this did not help to clearly determine the author for the disputed papers.
+
+
+
+
+- cluster-size=7
+
+
+**SSE**
+
+
+SSEs look a lot better with increased cluster-size
+
+
+Within cluster sum of squares by cluster:
+
+
+[1] 0.00754175 0.03396400 0.06862076 0.00231200 0.02952307 0.00990520 0.02239410
+
+
+**Data**
+
+
+Disputed papers were placed in clusters - 2, 7, 3:
+
+
+- Number of disputed papers in cluster-2 = 3
+
+
+- Number of disputed papers in cluster-7 = 7
+
+
+- Number of disputed papers in cluster-3 = 1
+
+
+Cluster-7 that has the highest papers does not have sufficient majority of Hamilton/Madison papers to make a decision.
+
+
+Overall, k-means does not seem like a good algorithm for document analysis use-cases.
+
+
+### HAC algorithm
+
+
+In comparison, seems like plotting and analyzing dendograms, seems a plausible means to realize the exercise. To a very large extent we can classify the disputed documents to the corresponding authors. 
+
+## Conclusions 
+
+
+With Hierarchical Agglomerative Clustering (HAC) techniques (and dendograms to analyze the results) we conclude by analyzing one disputed document dispt_fed_49.txt across:  
+
+
+- Eucledian
+
+
+In plot 'HAC cluster dendogram with Euclidean Similarity', see document 'dispt_fed_49.txt' present in the first-cluster on the left and is associated by nodes/leafs that belong to Hamilton so, we can conclude it was written by author Hamilton with moderate confidence.
+
+
+- Cosine
+
+
+In plot 'HAC cluster dendogram with Cosine Similarity', see document 'dispt_fed_49.txt' belonging to a cluster towards the end. Again, the nodes/leafs around it are documents by author Hamilton.
+
+
+- Cosine-Normalized
+
+
+Likewise, in plot 'HAC cluster dendogram with Cosine Similarity (Normalized)' the surrounding nodes/leafs are related to author Hamilton.
+
+
+In similar lines, we could extend the study to all disputed documents and hence classify them between the two authors.
+
