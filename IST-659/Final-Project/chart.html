@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>{{ title }}</title>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/Chart.js/1.0.2/Chart.min.js'></script>
+</head>
+
+<body>
+  <style>
+  h2 {
+     position: absolute;
+     left: 100px;
+     top: 0px;
+  }
+  </style>
+  <h2 style="font-family:impact; font-size:15px">{{ title_1 }}</h2>
+  <canvas id="chart-1" width="400" height="300" \ 
+  left="100px", style="left:10px; top: 70px; position: absolute;"></canvas>
+  <script>
+    var options = {
+      chartArea: {left:0, top:0}
+    }
+    // bar chart data
+    var barData = {
+      labels : [
+        {% for item in labels_1 %}
+          "{{ item }}",
+        {% endfor %}
+      ],
+
+      datasets : [{
+        fillColor: "rgba(151,187,205,0.2)",
+        strokeColor: "rgba(151,187,205,1)",
+        pointColor: "rgba(151,187,205,1)",
+        data : [
+          {% for item in values_1 %}
+              "{{ item }}",
+            {% endfor %}
+          ]
+        }
+      ]
+    }
+
+    // get bar chart canvas
+    var mychart = document.getElementById("chart-1").getContext("2d");
+
+      steps = 10
+      max = {{max_1}}
+
+    // draw bar chart
+    new Chart(mychart).Bar(barData, {
+      scaleOverride: true,
+      scaleSteps: steps,
+      scaleStepWidth: Math.ceil(max / steps),
+      scaleStartValue: 0,
+      scaleShowVerticalLines: true,
+      scaleShowGridLines : true,
+      barShowStroke : true,
+      scaleShowLabels: true
+      }
+    );
+
+  </script>
+</body>
+
+<body>
+  <head>
+  <style>
+  h3 {
+     position: absolute;
+     left: 600px;
+     top: 0px;
+  }
+  </style>
+  </head>
+  <h3 style="font-family:impact; font-size:15px">{{ title_2 }}</h3>
+  <canvas id="chart-2" width="400" height="300" \ 
+  left="100px", style="left:500px; top: 70px; position: absolute;"></canvas>
+  <script>
+    // bar chart data
+    var barData = {
+      labels : [
+        {% for item in labels_2 %}
+          "{{ item }}",
+        {% endfor %}
+      ],
+
+      datasets : [{
+        fillColor: "rgba(151,187,205,0.2)",
+        strokeColor: "rgba(151,187,205,1)",
+        pointColor: "rgba(151,187,205,1)",
+        data : [
+          {% for item in values_2 %}
+              "{{ item }}",
+            {% endfor %}
+          ]
+        }
+      ]
+    }
+
+    // get bar chart canvas
+    var mychart = document.getElementById("chart-2").getContext("2d");
+
+      steps = 10
+      max = {{max_2}}
+
+    // draw bar chart
+    new Chart(mychart).Bar(barData, {
+      scaleOverride: true,
+      scaleSteps: steps,
+      scaleStepWidth: Math.ceil(max / steps),
+      scaleStartValue: 0,
+      scaleShowVerticalLines: true,
+      scaleShowGridLines : true,
+      barShowStroke : true,
+      scaleShowLabels: true
+      }
+    );
+  </script>
+</body>
+
+<body>
+  <head>
+  <style>
+  h4 {
+     position: absolute;
+     left: 1100px;
+     top: 0px;
+  }
+  </style>
+  </head>
+  <h4 style="font-family:impact; font-size:15px">{{ title_3 }}</h4>
+  <canvas id="chart-3" width="400" height="300" \ 
+  left="100px", style="left:1000px; top: 70px; position: absolute;"></canvas>
+  <script>
+    var pieData = [
+      {% for item, label, colors in set %}
+	{
+	  value: {{item}},
+	  label: "{{label}}",
+	  color : "{{colors}}"
+	},
+      {% endfor %}
+    ];
+
+    // get bar chart canvas
+    var mychart = document.getElementById("chart-3").getContext("2d");
+    steps = 10
+    max = {{ max_3 }}
+
+    // draw pie chart
+    new Chart(document.getElementById("chart-3").getContext("2d")).Pie(pieData);
+
+  </script>
+</body>
+</html>
