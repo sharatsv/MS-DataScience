@@ -1,0 +1,3 @@
+Book,Negative,Neutral,Positive
+Caesar,"Sentiment(polarity=0.0, subjectivity=0.0)","Sentiment(polarity=0.0, subjectivity=0.0)","Sentiment(polarity=0.0, subjectivity=0.0)"
+Hamlet,"Sentiment(polarity=0.0, subjectivity=0.0)","Sentiment(polarity=0.0, subjectivity=0.0)","Sentiment(polarity=0.0, subjectivity=0.0)"

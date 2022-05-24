@@ -1,0 +1,2045 @@
+Sentence,Book,pos-sent,neg-sent,neutral-sent
+"Layest thou thy Leaden Mace vpon my Boy,
+That playes thee Musicke?",Caesar,0,1,0
+"Gentle knaue good night:
+I will not do thee so much wrong to wake thee:
+If thou do'st nod, thou break'st thy Instrument,
+Ile take it from thee, and (good Boy) good night.",Caesar,0,1,0
+"Let me see, let me see; is not the Leafe turn'd downe
+Where I left reading?",Caesar,0,1,0
+Heere it is I thinke.,Caesar,0,1,0
+Enter the Ghost of Caesar.,Caesar,0,0,1
+How ill this Taper burnes.,Caesar,0,0,1
+Ha!,Caesar,0,0,1
+Who comes heere?,Caesar,0,1,0
+"I thinke it is the weakenesse of mine eyes
+That shapes this monstrous Apparition.",Caesar,0,1,0
+It comes vpon me: Art thou any thing?,Caesar,0,1,0
+"Art thou some God, some Angell, or some Diuell,
+That mak'st my blood cold, and my haire to stare?",Caesar,0,1,0
+"Speake to me, what thou art
+
+   Ghost.",Caesar,0,1,0
+Thy euill Spirit Brutus?,Caesar,0,0,1
+Bru.,Caesar,0,0,1
+Why com'st thou?,Caesar,0,0,1
+Ghost.,Caesar,0,0,1
+"To tell thee thou shalt see me at Philippi
+
+   Brut.",Caesar,0,1,0
+Well: then I shall see thee againe?,Caesar,0,1,0
+Ghost.,Caesar,0,0,1
+"I, at Philippi
+
+   Brut.",Caesar,0,1,0
+"Why I will see thee at Philippi then:
+Now I haue taken heart, thou vanishest.",Caesar,0,1,0
+"Ill Spirit, I would hold more talke with thee.",Caesar,0,1,0
+"Boy, Lucius, Varrus, Claudio, Sirs: Awake:
+Claudio
+
+   Luc.",Caesar,0,1,0
+"The strings my Lord, are false
+
+   Bru.",Caesar,0,0,1
+He thinkes he still is at his Instrument.,Caesar,0,1,0
+"Lucius, awake
+
+   Luc.",Caesar,0,0,1
+"My Lord
+
+   Bru.",Caesar,0,1,0
+"Did'st thou dreame Lucius, that thou so cryedst
+out?",Caesar,0,0,1
+Luc.,Caesar,0,0,1
+"My Lord, I do not know that I did cry
+
+   Bru.",Caesar,0,1,0
+Yes that thou did'st: Did'st thou see any thing?,Caesar,0,0,1
+Luc.,Caesar,0,0,1
+"Nothing my Lord
+
+   Bru.",Caesar,0,1,0
+"Sleepe againe Lucius: Sirra Claudio, Fellow,
+Thou: Awake
+
+   Var.",Caesar,0,1,0
+"My Lord
+
+   Clau.",Caesar,0,1,0
+"My Lord
+
+   Bru.",Caesar,0,1,0
+"Why did you so cry out sirs, in your sleepe?",Caesar,0,0,1
+Both.,Caesar,0,0,1
+Did we my Lord?,Caesar,0,0,1
+Bru.,Caesar,0,0,1
+I: saw you any thing?,Caesar,0,0,1
+Var.,Caesar,0,0,1
+"No my Lord, I saw nothing
+
+   Clau.",Caesar,0,1,0
+"Nor I my Lord
+
+   Bru.",Caesar,0,1,0
+"Go, and commend me to my Brother Cassius:
+Bid him set on his Powres betimes before,
+And we will follow
+
+   Both.",Caesar,0,1,0
+It shall be done my Lord.,Caesar,0,1,0
+Exeunt.,Caesar,0,0,1
+Actus Quintus.,Caesar,0,1,0
+"Enter Octauius, Antony, and their Army.",Caesar,0,1,0
+Octa.,Caesar,0,0,1
+"Now Antony, our hopes are answered,
+You said the Enemy would not come downe,
+But keepe the Hilles and vpper Regions:
+It proues not so: their battailes are at hand,
+They meane to warne vs at Philippi heere:
+Answering before we do demand of them
+
+   Ant.",Caesar,0,1,0
+"Tut I am in their bosomes, and I know
+Wherefore they do it: They could be content
+To visit other places, and come downe
+With fearefull brauery: thinking by this face
+To fasten in our thoughts that they haue Courage;
+But 'tis not so.",Caesar,0,1,0
+Enter a Messenger.,Caesar,0,0,1
+Mes.,Caesar,0,0,1
+"Prepare you Generals,
+The Enemy comes on in gallant shew:
+Their bloody signe of Battell is hung out,
+And something to be done immediately
+
+   Ant.",Caesar,0,1,0
+"Octauius, leade your Battaile softly on
+Vpon the left hand of the euen Field
+
+   Octa.",Caesar,0,1,0
+"Vpon the right hand I, keepe thou the left
+
+   Ant.",Caesar,0,1,0
+"Why do you crosse me in this exigent
+
+   Octa.",Caesar,0,0,1
+I do not crosse you: but I will do so.,Caesar,0,0,1
+March.,Caesar,0,0,1
+Drum.,Caesar,0,0,1
+"Enter Brutus, Cassius, & their Army.",Caesar,0,1,0
+Bru.,Caesar,0,0,1
+"They stand, and would haue parley
+
+   Cassi.",Caesar,0,1,0
+"Stand fast Titinius, we must out and talke
+
+   Octa.",Caesar,0,1,0
+"Mark Antony, shall we giue signe of Battaile?",Caesar,0,1,0
+Ant.,Caesar,0,0,1
+"No Caesar, we will answer on their Charge.",Caesar,0,1,0
+"Make forth, the Generals would haue some words
+
+   Oct. Stirre not vntill the Signall
+
+   Bru.",Caesar,0,1,0
+Words before blowes: is it so Countrymen?,Caesar,0,0,1
+Octa.,Caesar,0,0,1
+"Not that we loue words better, as you do
+
+   Bru.",Caesar,0,0,1
+"Good words are better then bad strokes Octauius
+
+   An.",Caesar,0,1,0
+"In your bad strokes Brutus, you giue good words
+Witnesse the hole you made in Caesars heart,
+Crying long liue, Haile Caesar
+
+   Cassi.",Caesar,0,1,0
+"Antony,
+The posture of your blowes are yet vnknowne;
+But for your words, they rob the Hibla Bees,
+And leaue them Hony-lesse
+
+   Ant.",Caesar,0,1,0
+"Not stinglesse too
+
+   Bru.",Caesar,0,0,1
+"O yes, and soundlesse too:
+For you haue stolne their buzzing Antony,
+And very wisely threat before you sting
+
+   Ant.",Caesar,0,0,1
+"Villains: you did not so, when your vile daggers
+Hackt one another in the sides of Caesar:
+You shew'd your teethes like Apes,
+And fawn'd like Hounds,
+And bow'd like Bondmen, kissing Caesars feete;
+Whil'st damned Caska, like a Curre, behinde
+Strooke Caesar on the necke.",Caesar,0,1,0
+"O you Flatterers
+
+   Cassi.",Caesar,0,1,0
+Flatterers?,Caesar,0,0,1
+"Now Brutus thanke your selfe,
+This tongue had not offended so to day.",Caesar,0,1,0
+"If Cassius might haue rul'd
+
+   Octa.",Caesar,0,1,0
+"Come, come, the cause.",Caesar,0,0,1
+"If arguing make vs swet,
+The proofe of it will turne to redder drops:
+Looke, I draw a Sword against Conspirators,
+When thinke you that the Sword goes vp againe?",Caesar,0,1,0
+"Neuer till Caesars three and thirtie wounds
+Be well aueng'd; or till another Caesar
+Haue added slaughter to the Sword of Traitors
+
+   Brut.",Caesar,0,1,0
+"Caesar, thou canst not dye by Traitors hands.",Caesar,0,0,1
+"Vnlesse thou bring'st them with thee
+
+   Octa.",Caesar,0,0,1
+"So I hope:
+I was not borne to dye on Brutus Sword
+
+   Bru.",Caesar,0,1,0
+"O if thou wer't the Noblest of thy Straine,
+Yong-man, thou could'st not dye more honourable
+
+   Cassi.",Caesar,0,0,1
+"A peeuish School-boy, worthles of such Honor
+Ioyn'd with a Masker, and a Reueller
+
+   Ant.",Caesar,0,1,0
+"Old Cassius still
+
+   Octa.",Caesar,0,1,0
+"Come Antony: away:
+Defiance Traitors, hurle we in your teeth.",Caesar,0,1,0
+"If you dare fight to day, come to the Field;
+If not, when you haue stomackes.",Caesar,0,0,1
+"Exit Octauius, Antony, and Army
+
+  Cassi.",Caesar,0,1,0
+"Why now blow winde, swell Billow,
+And swimme Barke:
+The Storme is vp, and all is on the hazard
+
+   Bru.",Caesar,0,1,0
+"Ho Lucillius, hearke, a word with you.",Caesar,0,0,1
+Lucillius and Messala stand forth.,Caesar,0,0,1
+Luc.,Caesar,0,0,1
+"My Lord
+
+   Cassi.",Caesar,0,1,0
+"Messala
+
+   Messa.",Caesar,0,1,0
+What sayes my Generall?,Caesar,0,1,0
+Cassi.,Caesar,0,0,1
+"Messala, this is my Birth-day: at this very day
+Was Cassius borne.",Caesar,0,1,0
+"Giue me thy hand Messala:
+Be thou my witnesse, that against my will
+(As Pompey was) am I compell'd to set
+Vpon one Battell all our Liberties.",Caesar,0,1,0
+"You know, that I held Epicurus strong,
+And his Opinion: Now I change my minde,
+And partly credit things that do presage.",Caesar,0,1,0
+"Comming from Sardis, on our former Ensigne
+Two mighty Eagles fell, and there they pearch'd,
+Gorging and feeding from our Soldiers hands,
+Who to Philippi heere consorted vs:
+This Morning are they fled away, and gone,
+And in their steeds, do Rauens, Crowes, and Kites
+Fly ore our heads, and downward looke on vs
+As we were sickely prey; their shadowes seeme
+A Canopy most fatall, vnder which
+Our Army lies, ready to giue vp the Ghost
+
+   Messa.",Caesar,0,1,0
+"Beleeue not so
+
+   Cassi.",Caesar,0,0,1
+"I but beleeue it partly,
+For I am fresh of spirit, and resolu'd
+To meete all perils, very constantly
+
+   Bru.",Caesar,0,1,0
+"Euen so Lucillius
+
+   Cassi.",Caesar,0,0,1
+"Now most Noble Brutus,
+The Gods to day stand friendly, that we may
+Louers in peace, leade on our dayes to age.",Caesar,0,1,0
+"But since the affayres of men rests still incertaine,
+Let's reason with the worst that may befall.",Caesar,0,1,0
+"If we do lose this Battaile, then is this
+The very last time we shall speake together:
+What are you then determined to do?",Caesar,0,1,0
+Bru.,Caesar,0,0,1
+"Euen by the rule of that Philosophy,
+By which I did blame Cato, for the death
+Which he did giue himselfe, I know not how:
+But I do finde it Cowardly, and vile,
+For feare of what might fall, so to preuent
+The time of life, arming my selfe with patience,
+To stay the prouidence of some high Powers,
+That gouerne vs below
+
+   Cassi.",Caesar,0,1,0
+"Then, if we loose this Battaile,
+You are contented to be led in Triumph
+Thorow the streets of Rome
+
+   Bru.",Caesar,0,0,1
+"No Cassius, no:
+Thinke not thou Noble Romane,
+That euer Brutus will go bound to Rome,
+He beares too great a minde.",Caesar,0,1,0
+"But this same day
+Must end that worke, the Ides of March begun.",Caesar,0,0,1
+"And whether we shall meete againe, I know not:
+Therefore our euerlasting farewell take:
+For euer, and for euer, farewell Cassius,
+If we do meete againe, why we shall smile;
+If not, why then this parting was well made
+
+   Cassi.",Caesar,0,1,0
+"For euer, and for euer, farewell Brutus:
+If we do meete againe, wee'l smile indeede;
+If not, 'tis true, this parting was well made
+
+   Bru.",Caesar,0,1,0
+Why then leade on.,Caesar,0,0,1
+"O that a man might know
+The end of this dayes businesse, ere it come:
+But it sufficeth, that the day will end,
+And then the end is knowne.",Caesar,0,0,1
+"Come ho, away.",Caesar,0,1,0
+Exeunt.,Caesar,0,0,1
+Alarum.,Caesar,0,0,1
+Enter Brutus and Messala.,Caesar,0,1,0
+Bru.,Caesar,0,0,1
+"Ride, ride Messala, ride and giue these Billes
+Vnto the Legions, on the other side.",Caesar,0,1,0
+Lowd Alarum.,Caesar,0,0,1
+"Let them set on at once: for I perceiue
+But cold demeanor in Octauio's wing:
+And sodaine push giues them the ouerthrow:
+Ride, ride Messala, let them all come downe.",Caesar,0,1,0
+Exeunt.,Caesar,0,0,1
+Alarums.,Caesar,0,0,1
+Enter Cassius and Titinius.,Caesar,0,1,0
+Cassi.,Caesar,0,0,1
+"O looke Titinius, looke, the Villaines flye:
+My selfe haue to mine owne turn'd Enemy:
+This Ensigne heere of mine was turning backe,
+I slew the Coward, and did take it from him
+
+   Titin.",Caesar,0,1,0
+"O Cassius, Brutus gaue the word too early,
+Who hauing some aduantage on Octauius,
+Tooke it too eagerly: his Soldiers fell to spoyle,
+Whilst we by Antony are all inclos'd.",Caesar,0,1,0
+Enter Pindarus.,Caesar,0,1,0
+Pind.,Caesar,0,0,1
+"Fly further off my Lord: flye further off,
+Mark Antony is in your Tents my Lord:
+Flye therefore Noble Cassius, flye farre off
+
+   Cassi.",Caesar,0,1,0
+This Hill is farre enough.,Caesar,0,0,1
+"Looke, look Titinius
+Are those my Tents where I perceiue the fire?",Caesar,0,1,0
+Tit.,Caesar,0,0,1
+"They are, my Lord
+
+   Cassi.",Caesar,0,1,0
+"Titinius, if thou louest me,
+Mount thou my horse, and hide thy spurres in him,
+Till he haue brought thee vp to yonder Troopes
+And heere againe, that I may rest assur'd
+Whether yond Troopes, are Friend or Enemy
+
+   Tit.",Caesar,0,1,0
+"I will be heere againe, euen with a thought.",Caesar,0,1,0
+Enter.,Caesar,0,0,1
+Cassi.,Caesar,0,0,1
+"Go Pindarus, get higher on that hill,
+My sight was euer thicke: regard Titinius,
+And tell me what thou not'st about the Field.",Caesar,0,1,0
+"This day I breathed first, Time is come round,
+And where I did begin, there shall I end,
+My life is run his compasse.",Caesar,0,1,0
+"Sirra, what newes?",Caesar,0,0,1
+Pind.,Caesar,0,0,1
+Aboue.,Caesar,0,0,1
+"O my Lord
+
+   Cassi.",Caesar,0,1,0
+What newes?,Caesar,0,0,1
+Pind.,Caesar,0,0,1
+"Titinius is enclosed round about
+With Horsemen, that make to him on the Spurre,
+Yet he spurres on.",Caesar,0,0,1
+"Now they are almost on him:
+Now Titinius.",Caesar,0,0,1
+Now some light: O he lights too.,Caesar,0,0,1
+Hee's tane.,Caesar,0,0,1
+Showt.,Caesar,0,0,1
+"And hearke, they shout for ioy
+
+   Cassi.",Caesar,0,1,0
+"Come downe, behold no more:
+O Coward that I am, to liue so long,
+To see my best Friend tane before my face
+Enter Pindarus.",Caesar,0,1,0
+"Come hither sirrah: In Parthia did I take thee Prisoner,
+And then I swore thee, sauing of thy life,
+That whatsoeuer I did bid thee do,
+Thou should'st attempt it.",Caesar,0,1,0
+"Come now, keepe thine oath,
+Now be a Free-man, and with this good Sword
+That ran through Caesars bowels, search this bosome.",Caesar,0,1,0
+"Stand not to answer: Heere, take thou the Hilts,
+And when my face is couer'd, as 'tis now,
+Guide thou the Sword- Caesar, thou art reueng'd,
+Euen with the Sword that kill'd thee
+
+   Pin.",Caesar,0,1,0
+"So, I am free,
+Yet would not so haue beene
+Durst I haue done my will.",Caesar,0,1,0
+"O Cassius,
+Farre from this Country Pindarus shall run,
+Where neuer Roman shall take note of him.",Caesar,0,1,0
+Enter Titinius and Messala.,Caesar,0,1,0
+Messa.,Caesar,0,0,1
+"It is but change, Titinius: for Octauius
+Is ouerthrowne by Noble Brutus power,
+As Cassius Legions are by Antony
+
+   Titin.",Caesar,0,1,0
+"These tydings will well comfort Cassius
+
+   Messa.",Caesar,0,1,0
+"Where did you leaue him
+
+   Titin.",Caesar,0,0,1
+"All disconsolate,
+With Pindarus his Bondman, on this Hill
+
+   Messa.",Caesar,0,1,0
+Is not that he that lyes vpon the ground?,Caesar,0,0,1
+Titin.,Caesar,0,0,1
+He lies not like the Liuing.,Caesar,0,1,0
+O my heart!,Caesar,0,0,1
+Messa.,Caesar,0,0,1
+Is not that hee?,Caesar,0,0,1
+Titin.,Caesar,0,0,1
+"No, this was he Messala,
+But Cassius is no more.",Caesar,0,1,0
+"O setting Sunne:
+As in thy red Rayes thou doest sinke to night;
+So in his red blood Cassius day is set.",Caesar,0,1,0
+The Sunne of Rome is set.,Caesar,0,0,1
+"Our day is gone,
+Clowds, Dewes, and Dangers come; our deeds are done:
+Mistrust of my successe hath done this deed
+
+   Messa.",Caesar,0,1,0
+Mistrust of good successe hath done this deed.,Caesar,0,1,0
+"O hatefull Error, Melancholies Childe:
+Why do'st thou shew to the apt thoughts of men
+The things that are not?",Caesar,0,1,0
+"O Error soone conceyu'd,
+Thou neuer com'st vnto a happy byrth,
+But kil'st the Mother that engendred thee
+
+   Tit.",Caesar,0,1,0
+What Pindarus?,Caesar,0,0,1
+Where art thou Pindarus?,Caesar,0,1,0
+Messa.,Caesar,0,0,1
+"Seeke him Titinius, whilst I go to meet
+The Noble Brutus, thrusting this report
+Into his eares; I may say thrusting it:
+For piercing Steele, and Darts inuenomed,
+Shall be as welcome to the eares of Brutus,
+As tydings of this sight
+
+   Tit.",Caesar,0,1,0
+"Hye you Messala,
+And I will seeke for Pindarus the while:
+Why did'st thou send me forth braue Cassius?",Caesar,0,1,0
+"Did I not meet thy Friends, and did not they
+Put on my Browes this wreath of Victorie,
+And bid me giue it thee?",Caesar,0,1,0
+Did'st thou not heare their showts?,Caesar,0,0,1
+"Alas, thou hast misconstrued euery thing.",Caesar,0,1,0
+"But hold thee, take this Garland on thy Brow,
+Thy Brutus bid me giue it thee, and I
+Will do his bidding.",Caesar,0,1,0
+"Brutus, come apace,
+And see how I regarded Caius Cassius:
+By your leaue Gods: This is a Romans part,
+Come Cassius Sword, and finde Titinius hart.",Caesar,0,1,0
+"Dies
+
+Alarum.",Caesar,0,1,0
+"Enter Brutus, Messala, yong Cato, Strato, Volumnius, and
+Lucillius.",Caesar,0,1,0
+Bru.,Caesar,0,0,1
+"Where, where Messala, doth his body lye?",Caesar,0,0,1
+Messa.,Caesar,0,0,1
+"Loe yonder, and Titinius mourning it
+
+   Bru.",Caesar,0,0,1
+"Titinius face is vpward
+
+   Cato.",Caesar,0,0,1
+"He is slaine
+
+   Bru.",Caesar,0,0,1
+"O Iulius Caesar, thou art mighty yet,
+Thy Spirit walkes abroad, and turnes our Swords
+In our owne proper Entrailes.",Caesar,0,1,0
+"Low Alarums
+
+   Cato.",Caesar,0,1,0
+"Braue Titinius,
+Looke where he haue not crown'd dead Cassius
+
+   Bru.",Caesar,0,1,0
+Are yet two Romans liuing such as these?,Caesar,0,1,0
+"The last of all the Romans, far thee well:
+It is impossible, that euer Rome
+Should breed thy fellow.",Caesar,0,1,0
+"Friends I owe mo teares
+To this dead man, then you shall see me pay.",Caesar,0,1,0
+"I shall finde time, Cassius: I shall finde time.",Caesar,0,1,0
+"Come therefore, and to Tharsus send his body,
+His Funerals shall not be in our Campe,
+Least it discomfort vs. Lucillius come,
+And come yong Cato, let vs to the Field,
+Labio and Flauio set our Battailes on:
+'Tis three a clocke, and Romans yet ere night,
+We shall try Fortune in a second fight.",Caesar,0,1,0
+Exeunt.,Caesar,0,0,1
+Alarum.,Caesar,0,0,1
+"Enter Brutus, Messala, Cato, Lucillius, and Flauius.",Caesar,0,1,0
+Bru.,Caesar,0,0,1
+"Yet Country-men: O yet, hold vp your heads
+
+   Cato.",Caesar,0,1,0
+What Bastard doth not?,Caesar,0,1,0
+Who will go with me?,Caesar,0,0,1
+I will proclaime my name about the Field.,Caesar,0,0,1
+"I am the Sonne of Marcus Cato, hoe.",Caesar,0,1,0
+"A Foe to Tyrants, and my Countries Friend.",Caesar,0,1,0
+"I am the Sonne of Marcus Cato, hoe.",Caesar,0,1,0
+"Enter Souldiers, and fight.",Caesar,0,1,0
+"And I am Brutus, Marcus Brutus, I,
+Brutus my Countries Friend: Know me for Brutus
+
+   Luc.",Caesar,0,1,0
+"O yong and Noble Cato, art thou downe?",Caesar,0,1,0
+"Why now thou dyest, as brauely as Titinius,
+And may'st be honour'd, being Cato's Sonne
+
+   Sold.",Caesar,0,1,0
+"Yeeld, or thou dyest
+
+   Luc.",Caesar,0,1,0
+"Onely I yeeld to dye:
+There is so much, that thou wilt kill me straight:
+Kill Brutus, and be honour'd in his death
+
+   Sold.",Caesar,0,1,0
+We must not: a Noble Prisoner.,Caesar,0,1,0
+Enter Antony.,Caesar,0,1,0
+2.Sold.,Caesar,0,0,1
+"Roome hoe: tell Antony, Brutus is tane
+
+   1.Sold.",Caesar,0,0,1
+Ile tell thee newes.,Caesar,0,1,0
+"Heere comes the Generall,
+Brutus is tane, Brutus is tane my Lord
+
+   Ant.",Caesar,0,1,0
+Where is hee?,Caesar,0,0,1
+Luc.,Caesar,0,0,1
+"Safe Antony, Brutus is safe enough:
+I dare assure thee, that no Enemy
+Shall euer take aliue the Noble Brutus:
+The Gods defend him from so great a shame,
+When you do finde him, or aliue, or dead,
+He will be found like Brutus, like himselfe
+
+   Ant.",Caesar,0,1,0
+"This is not Brutus friend, but I assure you,
+A prize no lesse in worth; keepe this man safe,
+Giue him all kindnesse.",Caesar,0,1,0
+"I had rather haue
+Such men my Friends, then Enemies.",Caesar,0,1,0
+"Go on,
+And see where Brutus be aliue or dead,
+And bring vs word, vnto Octauius Tent:
+How euery thing is chanc'd.",Caesar,0,1,0
+Exeunt.,Caesar,0,0,1
+"Enter Brutus, Dardanius, Clitus, Strato, and Volumnius.",Caesar,0,1,0
+Brut.,Caesar,0,0,1
+"Come poore remaines of friends, rest on this
+Rocke
+
+   Clit.",Caesar,0,1,0
+"Statillius shew'd the Torch-light, but my Lord
+He came not backe: he is or tane, or slaine
+
+   Brut.",Caesar,0,0,1
+"Sit thee downe, Clitus: slaying is the word,
+It is a deed in fashion.",Caesar,0,0,1
+"Hearke thee, Clitus
+
+   Clit.",Caesar,0,1,0
+"What I, my Lord?",Caesar,0,0,1
+"No, not for all the World
+
+   Brut.",Caesar,0,0,1
+"Peace then, no words
+
+   Clit.",Caesar,0,0,1
+"Ile rather kill my selfe
+
+   Brut.",Caesar,0,0,1
+"Hearke thee, Dardanius
+
+   Dard.",Caesar,0,1,0
+Shall I doe such a deed?,Caesar,0,1,0
+Clit.,Caesar,0,0,1
+"O Dardanius
+
+   Dard.",Caesar,0,1,0
+"O Clitus
+
+   Clit.",Caesar,0,1,0
+What ill request did Brutus make to thee?,Caesar,0,1,0
+Dard.,Caesar,0,0,1
+"To kill him, Clitus: looke he meditates
+
+   Clit.",Caesar,0,0,1
+"Now is that Noble Vessell full of griefe,
+That it runnes ouer euen at his eyes
+
+   Brut.",Caesar,0,0,1
+"Come hither, good Volumnius, list a word
+
+   Volum.",Caesar,0,1,0
+What sayes my Lord?,Caesar,0,1,0
+Brut.,Caesar,0,0,1
+"Why this, Volumnius:
+The Ghost of Caesar hath appear'd to me
+Two seuerall times by Night: at Sardis, once;
+And this last Night, here in Philippi fields:
+I know my houre is come
+
+   Volum.",Caesar,0,1,0
+"Not so, my Lord
+
+   Brut.",Caesar,0,1,0
+"Nay, I am sure it is, Volumnius.",Caesar,0,0,1
+"Thou seest the World, Volumnius, how it goes,
+Our Enemies haue beat vs to the Pit:
+
+Low Alarums.",Caesar,0,1,0
+"It is more worthy, to leape in our selues,
+Then tarry till they push vs. Good Volumnius,
+Thou know'st, that we two went to Schoole together:
+Euen for that our loue of old, I prethee
+Hold thou my Sword Hilts, whilest I runne on it
+
+   Vol.",Caesar,0,0,1
+"That's not an Office for a friend, my Lord.",Caesar,0,0,1
+Alarum still.,Caesar,0,1,0
+Cly.,Caesar,0,0,1
+"Fly, flye my Lord, there is no tarrying heere
+
+   Bru.",Caesar,0,1,0
+"Farewell to you, and you, and Volumnius.",Caesar,0,0,1
+"Strato, thou hast bin all this while asleepe:
+Farewell to thee, to Strato, Countrymen:
+My heart doth ioy, that yet in all my life,
+I found no man, but he was true to me.",Caesar,0,1,0
+"I shall haue glory by this loosing day
+More then Octauius, and Marke Antony,
+By this vile Conquest shall attaine vnto.",Caesar,0,1,0
+"So fare you well at once, for Brutus tongue
+Hath almost ended his liues History:
+Night hangs vpon mine eyes, my Bones would rest,
+That haue but labour'd, to attaine this houre.",Caesar,0,1,0
+Alarum.,Caesar,0,0,1
+"Cry within, Flye, flye, flye.",Caesar,0,1,0
+Cly.,Caesar,0,0,1
+"Fly my Lord, flye
+
+   Bru.",Caesar,0,0,1
+"Hence: I will follow:
+I prythee Strato, stay thou by thy Lord,
+Thou art a Fellow of a good respect:
+Thy life hath had some smatch of Honor in it,
+Hold then my Sword, and turne away thy face,
+While I do run vpon it.",Caesar,0,1,0
+Wilt thou Strato?,Caesar,0,1,0
+Stra.,Caesar,0,0,1
+Giue me your hand first.,Caesar,0,0,1
+"Fare you wel my Lord
+
+   Bru.",Caesar,0,1,0
+Farewell good Strato.,Caesar,0,1,0
+"- Caesar, now be still,
+I kill'd not thee with halfe so good a will.",Caesar,0,0,1
+Dyes.,Caesar,0,0,1
+Alarum.,Caesar,0,0,1
+Retreat.,Caesar,0,0,1
+"Enter Antony, Octauius, Messala, Lucillius, and
+the
+Army.",Caesar,0,1,0
+Octa.,Caesar,0,0,1
+What man is that?,Caesar,0,1,0
+Messa.,Caesar,0,0,1
+My Masters man.,Caesar,0,0,1
+"Strato, where is thy Master?",Caesar,0,1,0
+Stra.,Caesar,0,0,1
+"Free from the Bondage you are in Messala,
+The Conquerors can but make a fire of him:
+For Brutus onely ouercame himselfe,
+And no man else hath Honor by his death
+
+   Lucil.",Caesar,0,1,0
+So Brutus should be found.,Caesar,0,0,1
+"I thank thee Brutus
+That thou hast prou'd Lucillius saying true,
+  Octa.",Caesar,0,1,0
+"All that seru'd Brutus, I will entertaine them.",Caesar,0,0,1
+"Fellow, wilt thou bestow thy time with me?",Caesar,0,1,0
+Stra.,Caesar,0,0,1
+"I, if Messala will preferre me to you
+
+   Octa.",Caesar,0,0,1
+"Do so, good Messala
+
+   Messa.",Caesar,0,1,0
+How dyed my Master Strato?,Caesar,0,0,1
+Stra.,Caesar,0,0,1
+"I held the Sword, and he did run on it
+
+   Messa.",Caesar,0,1,0
+"Octauius, then take him to follow thee,
+That did the latest seruice to my Master
+
+   Ant.",Caesar,0,0,1
+"This was the Noblest Roman of them all:
+All the Conspirators saue onely hee,
+Did that they did, in enuy of great Caesar:
+He, onely in a generall honest thought,
+And common good to all, made one of them.",Caesar,0,1,0
+"His life was gentle, and the Elements
+So mixt in him, that Nature might stand vp,
+And say to all the world; This was a man
+
+   Octa.",Caesar,0,1,0
+"According to his Vertue, let vs vse him
+Withall Respect, and Rites of Buriall.",Caesar,0,1,0
+"Within my Tent his bones to night shall ly,
+Most like a Souldier ordered Honourably:
+So call the Field to rest, and let's away,
+To part the glories of this happy day.",Caesar,0,1,0
+Exeunt.,Caesar,0,0,1
+omnes.,Caesar,0,0,1
+FINIS.,Caesar,0,0,1
+THE TRAGEDIE OF IVLIVS CaeSAR.,Caesar,0,0,1
+Sentence,Book,pos-sent,neg-sent,neutral-sent
+"So that with ease,
+Or with a little shuffling, you may choose
+A Sword vnbaited, and in a passe of practice,
+Requit him for your Father
+
+   Laer.",Hamlet,0,0,1
+I will doo't.,Hamlet,0,0,1
+"And for that purpose Ile annoint my Sword:
+I bought an Vnction of a Mountebanke
+So mortall, I but dipt a knife in it,
+Where it drawes blood, no Cataplasme so rare,
+Collected from all Simples that haue Vertue
+Vnder the Moone, can saue the thing from death,
+That is but scratcht withall: Ile touch my point,
+With this contagion, that if I gall him slightly,
+It may be death
+
+   Kin.",Hamlet,0,1,0
+"Let's further thinke of this,
+Weigh what conuenience both of time and meanes
+May fit vs to our shape, if this should faile;
+And that our drift looke through our bad performance,
+'Twere better not assaid; therefore this Proiect
+Should haue a backe or second, that might hold,
+If this should blast in proofe: Soft, let me see
+Wee'l make a solemne wager on your commings,
+I ha't: when in your motion you are hot and dry,
+As make your bowts more violent to the end,
+And that he cals for drinke; Ile haue prepar'd him
+A Challice for the nonce; whereon but sipping,
+If he by chance escape your venom'd stuck,
+Our purpose may hold there; how sweet Queene.",Hamlet,0,0,1
+Enter Queene.,Hamlet,0,0,1
+Queen.,Hamlet,0,0,1
+"One woe doth tread vpon anothers heele,
+So fast they'l follow: your Sister's drown'd Laertes
+
+   Laer.",Hamlet,0,0,1
+Drown'd!,Hamlet,0,0,1
+O where?,Hamlet,0,0,1
+Queen.,Hamlet,0,0,1
+"There is a Willow growes aslant a Brooke,
+That shewes his hore leaues in the glassie streame:
+There with fantasticke Garlands did she come,
+Of Crow-flowers, Nettles, Daysies, and long Purples,
+That liberall Shepheards giue a grosser name;
+But our cold Maids doe Dead Mens Fingers call them:
+There on the pendant boughes, her Coronet weeds
+Clambring to hang; an enuious sliuer broke,
+When downe the weedy Trophies, and her selfe,
+Fell in the weeping Brooke, her cloathes spred wide,
+And Mermaid-like, a while they bore her vp,
+Which time she chaunted snatches of old tunes,
+As one incapable of her owne distresse,
+Or like a creature Natiue, and indued
+Vnto that Element: but long it could not be,
+Till that her garments, heauy with her drinke,
+Pul'd the poore wretch from her melodious buy,
+To muddy death
+
+   Laer.",Hamlet,0,0,1
+"Alas then, is she drown'd?",Hamlet,0,0,1
+Queen.,Hamlet,0,0,1
+"Drown'd, drown'd
+
+   Laer.",Hamlet,0,0,1
+"Too much of water hast thou poore Ophelia,
+And therefore I forbid my teares: but yet
+It is our tricke, Nature her custome holds,
+Let shame say what it will; when these are gone
+The woman will be out: Adue my Lord,
+I haue a speech of fire, that faine would blaze,
+But that this folly doubts it.",Hamlet,0,1,0
+Enter.,Hamlet,0,0,1
+Kin.,Hamlet,0,0,1
+"Let's follow, Gertrude:
+How much I had to doe to calme his rage?",Hamlet,0,0,1
+"Now feare I this will giue it start againe;
+Therefore let's follow.",Hamlet,0,1,0
+Exeunt.,Hamlet,0,0,1
+Enter two Clownes.,Hamlet,0,0,1
+Clown.,Hamlet,0,0,1
+"Is she to bee buried in Christian buriall, that
+wilfully seekes her owne saluation?",Hamlet,0,0,1
+Other.,Hamlet,0,0,1
+"I tell thee she is, and therefore make her Graue
+straight, the Crowner hath sate on her, and finds it Christian
+buriall
+
+   Clo.",Hamlet,0,1,0
+"How can that be, vnlesse she drowned her selfe in
+her owne defence?",Hamlet,0,0,1
+Other.,Hamlet,0,0,1
+"Why 'tis found so
+
+   Clo.",Hamlet,0,0,1
+"It must be Se offendendo, it cannot bee else: for
+heere lies the point; If I drowne my selfe wittingly, it argues
+an Act: and an Act hath three branches.",Hamlet,0,1,0
+"It is an
+Act to doe and to performe; argall she drown'd her selfe
+wittingly
+
+   Other.",Hamlet,0,0,1
+"Nay but heare you Goodman Deluer
+
+   Clown.",Hamlet,0,0,1
+"Giue me leaue; heere lies the water; good:
+heere stands the man; good: If the man goe to this water
+and drowne himselfe; it is will he nill he, he goes;
+marke you that?",Hamlet,0,0,1
+"But if the water come to him & drowne
+him; hee drownes not himselfe.",Hamlet,0,0,1
+"Argall, hee that is not
+guilty of his owne death, shortens not his owne life
+
+   Other.",Hamlet,0,0,1
+But is this law?,Hamlet,0,0,1
+Clo.,Hamlet,0,0,1
+"I marry is't, Crowners Quest Law
+
+   Other.",Hamlet,0,0,1
+"Will you ha the truth on't: if this had not
+beene a Gentlewoman, shee should haue beene buried
+out of Christian Buriall
+
+   Clo.",Hamlet,0,1,0
+Why there thou say'st.,Hamlet,0,0,1
+"And the more pitty that
+great folke should haue countenance in this world to
+drowne or hang themselues, more then their euen Christian.",Hamlet,0,0,1
+"Come, my Spade; there is no ancient Gentlemen,
+but Gardiners, Ditchers and Graue-makers; they hold vp
+Adams Profession
+
+   Other.",Hamlet,0,0,1
+Was he a Gentleman?,Hamlet,0,0,1
+Clo.,Hamlet,0,0,1
+"He was the first that euer bore Armes
+
+   Other.",Hamlet,0,0,1
+"Why he had none
+
+   Clo.",Hamlet,0,0,1
+"What, ar't a Heathen?",Hamlet,0,0,1
+"how doth thou vnderstand
+the Scripture?",Hamlet,0,0,1
+"the Scripture sayes Adam dig'd;
+could hee digge without Armes?",Hamlet,0,0,1
+"Ile put another question
+to thee; if thou answerest me not to the purpose, confesse
+thy selfe-
+  Other.",Hamlet,0,0,1
+"Go too
+
+   Clo.",Hamlet,0,0,1
+"What is he that builds stronger then either the
+Mason, the Shipwright, or the Carpenter?",Hamlet,0,0,1
+Other.,Hamlet,0,0,1
+"The Gallowes maker; for that Frame outliues a
+thousand Tenants
+
+   Clo.",Hamlet,0,0,1
+"I like thy wit well in good faith, the Gallowes
+does well; but how does it well?",Hamlet,0,0,1
+"it does well to those
+that doe ill: now, thou dost ill to say the Gallowes is
+built stronger then the Church: Argall, the Gallowes
+may doe well to thee.",Hamlet,0,0,1
+"Too't againe, Come
+
+   Other.",Hamlet,0,0,1
+"Who builds stronger then a Mason, a Shipwright,
+or a Carpenter?",Hamlet,0,0,1
+Clo.,Hamlet,0,0,1
+"I, tell me that, and vnyoake
+
+   Other.",Hamlet,0,0,1
+"Marry, now I can tell
+
+   Clo.",Hamlet,0,0,1
+"Too't
+
+   Other.",Hamlet,0,0,1
+"Masse, I cannot tell.",Hamlet,0,0,1
+Enter Hamlet and Horatio a farre off.,Hamlet,0,0,1
+Clo.,Hamlet,0,0,1
+"Cudgell thy braines no more about it; for your
+dull Asse will not mend his pace with beating; and when
+you are ask't this question next, say a Graue-maker: the
+Houses that he makes, lasts till Doomesday: go, get thee
+to Yaughan, fetch me a stoupe of Liquor.",Hamlet,0,1,0
+Sings.,Hamlet,0,0,1
+"In youth when I did loue, did loue,
+me thought it was very sweete:
+To contract O the time for a my behoue,
+O me thought there was nothing meete
+
+   Ham.",Hamlet,0,0,1
+"Ha's this fellow no feeling of his businesse, that
+he sings at Graue-making?",Hamlet,0,0,1
+Hor.,Hamlet,0,0,1
+"Custome hath made it in him a property of easinesse
+
+   Ham.",Hamlet,0,0,1
+"'Tis ee'n so; the hand of little Imployment hath
+the daintier sense
+
+   Clowne sings.",Hamlet,0,0,1
+"But Age with his stealing steps
+hath caught me in his clutch:
+And hath shipped me intill the Land,
+as if I had neuer beene such
+
+   Ham.",Hamlet,0,0,1
+"That Scull had a tongue in it, and could sing
+once: how the knaue iowles it to th' grownd, as if it
+were Caines Iaw-bone, that did the first murther: It
+might be the Pate of a Polititian which this Asse o're Offices:
+one that could circumuent God, might it not?",Hamlet,0,0,1
+Hor.,Hamlet,0,0,1
+"It might, my Lord
+
+   Ham.",Hamlet,0,0,1
+"Or of a Courtier, which could say, Good Morrow
+sweet Lord: how dost thou, good Lord?",Hamlet,0,0,1
+"this
+might be my Lord such a one, that prais'd my Lord such
+a ones Horse, when he meant to begge it; might it not?",Hamlet,0,0,1
+Hor.,Hamlet,0,0,1
+"I, my Lord
+
+   Ham.",Hamlet,0,0,1
+"Why ee'n so: and now my Lady Wormes,
+Chaplesse, and knockt about the Mazard with a Sextons
+Spade; heere's fine Reuolution, if wee had the tricke to
+see't.",Hamlet,0,0,1
+"Did these bones cost no more the breeding, but
+to play at Loggets with 'em?",Hamlet,0,0,1
+"mine ake to thinke
+on't
+
+   Clowne sings.",Hamlet,0,0,1
+"A Pickhaxe and a Spade, a Spade,
+for and a shrowding-Sheete:
+O a Pit of Clay for to be made,
+for such a Guest is meete
+
+   Ham.",Hamlet,0,0,1
+"There's another: why might not that bee the
+Scull of a Lawyer?",Hamlet,0,0,1
+where be his Quiddits now?,Hamlet,0,0,1
+"his
+Quillets?",Hamlet,0,0,1
+his Cases?,Hamlet,0,0,1
+"his Tenures, and his Tricks?",Hamlet,0,0,1
+"why
+doe's he suffer this rude knaue now to knocke him about
+the Sconce with a dirty Shouell, and will not tell him of
+his Action of Battery?",Hamlet,0,0,1
+hum.,Hamlet,0,0,1
+"This fellow might be in's
+time a great buyer of Land, with his Statutes, his Recognizances,
+his Fines, his double Vouchers, his Recoueries:
+Is this the fine of his Fines, and the recouery of his Recoueries,
+to haue his fine Pate full of fine Dirt?",Hamlet,0,0,1
+"will his
+Vouchers vouch him no more of his Purchases, and double
+ones too, then the length and breadth of a paire of
+Indentures?",Hamlet,0,0,1
+"the very Conueyances of his Lands will
+hardly lye in this Boxe; and must the Inheritor himselfe
+haue no more?",Hamlet,0,0,1
+ha?,Hamlet,0,0,1
+Hor.,Hamlet,0,0,1
+"Not a iot more, my Lord
+
+   Ham.",Hamlet,0,0,1
+Is not Parchment made of Sheep-skinnes?,Hamlet,0,0,1
+Hor.,Hamlet,0,0,1
+"I my Lord, and of Calue-skinnes too
+
+   Ham.",Hamlet,0,0,1
+"They are Sheepe and Calues that seek out assurance
+in that.",Hamlet,0,0,1
+"I will speake to this fellow: whose Graue's
+this Sir?",Hamlet,0,0,1
+Clo.,Hamlet,0,0,1
+"Mine Sir:
+O a Pit of Clay for to be made,
+for such a Guest is meete
+
+   Ham.",Hamlet,0,0,1
+"I thinke it be thine indeed: for thou liest in't
+
+   Clo.",Hamlet,0,1,0
+"You lye out on't Sir, and therefore it is not yours:
+for my part, I doe not lye in't; and yet it is mine
+
+   Ham.",Hamlet,0,1,0
+"Thou dost lye in't, to be in't and say 'tis thine:
+'tis for the dead, not for the quicke, therefore thou
+lyest
+
+   Clo.",Hamlet,0,0,1
+"'Tis a quicke lye Sir, 'twill away againe from me
+to you
+
+   Ham.",Hamlet,0,0,1
+What man dost thou digge it for?,Hamlet,0,0,1
+Clo.,Hamlet,0,0,1
+"For no man Sir
+
+   Ham.",Hamlet,0,0,1
+What woman then?,Hamlet,0,0,1
+Clo.,Hamlet,0,0,1
+"For none neither
+
+   Ham.",Hamlet,0,0,1
+Who is to be buried in't?,Hamlet,0,0,1
+Clo.,Hamlet,0,0,1
+"One that was a woman Sir; but rest her Soule,
+shee's dead
+
+   Ham.",Hamlet,0,0,1
+How absolute the knaue is?,Hamlet,0,0,1
+"wee must speake
+by the Carde, or equiuocation will vndoe vs: by the
+Lord Horatio, these three yeares I haue taken note of it,
+the Age is growne so picked, that the toe of the Pesant
+comes so neere the heeles of our Courtier, hee galls his
+Kibe.",Hamlet,0,1,0
+How long hast thou been a Graue-maker?,Hamlet,0,1,0
+Clo.,Hamlet,0,0,1
+"Of all the dayes i'th' yeare, I came too't that day
+that our last King Hamlet o'recame Fortinbras
+
+   Ham.",Hamlet,0,0,1
+How long is that since?,Hamlet,0,0,1
+Clo.,Hamlet,0,0,1
+Cannot you tell that?,Hamlet,0,0,1
+"euery foole can tell that:
+It was the very day, that young Hamlet was borne, hee
+that was mad, and sent into England
+
+   Ham.",Hamlet,0,0,1
+"I marry, why was he sent into England?",Hamlet,0,0,1
+Clo.,Hamlet,0,0,1
+"Why, because he was mad; hee shall recouer his
+wits there; or if he do not, it's no great matter there
+
+   Ham.",Hamlet,0,0,1
+Why?,Hamlet,0,0,1
+Clo.,Hamlet,0,0,1
+"'Twill not be seene in him, there the men are as
+mad as he
+
+   Ham.",Hamlet,0,0,1
+How came he mad?,Hamlet,0,0,1
+Clo.,Hamlet,0,0,1
+"Very strangely they say
+
+   Ham.",Hamlet,0,0,1
+How strangely?,Hamlet,0,0,1
+Clo.,Hamlet,0,0,1
+"Faith e'ene with loosing his wits
+
+   Ham.",Hamlet,0,0,1
+Vpon what ground?,Hamlet,0,0,1
+Clo.,Hamlet,0,0,1
+"Why heere in Denmarke: I haue bin sixeteene
+heere, man and Boy thirty yeares
+
+   Ham.",Hamlet,0,1,0
+How long will a man lie i'th' earth ere he rot?,Hamlet,0,0,1
+Clo.,Hamlet,0,0,1
+"Ifaith, if he be not rotten before he die (as we haue
+many pocky Coarses now adaies, that will scarce hold
+the laying in) he will last you some eight yeare, or nine
+yeare.",Hamlet,0,0,1
+"A Tanner will last you nine yeare
+
+   Ham.",Hamlet,0,0,1
+"Why he, more then another?",Hamlet,0,0,1
+Clo.,Hamlet,0,0,1
+"Why sir, his hide is so tan'd with his Trade, that
+he will keepe out water a great while.",Hamlet,0,0,1
+"And your water,
+is a sore Decayer of your horson dead body.",Hamlet,0,0,1
+"Heres a Scull
+now: this Scul, has laine in the earth three & twenty years
+
+   Ham.",Hamlet,0,0,1
+Whose was it?,Hamlet,0,0,1
+Clo.,Hamlet,0,0,1
+"A whoreson mad Fellowes it was;
+Whose doe you thinke it was?",Hamlet,0,0,1
+Ham.,Hamlet,0,0,1
+"Nay, I know not
+
+   Clo.",Hamlet,0,1,0
+"A pestilence on him for a mad Rogue, a pour'd a
+Flaggon of Renish on my head once.",Hamlet,0,0,1
+"This same Scull
+Sir, this same Scull sir, was Yoricks Scull, the Kings Iester
+
+   Ham.",Hamlet,0,0,1
+This?,Hamlet,0,0,1
+Clo.,Hamlet,0,0,1
+"E'ene that
+
+   Ham.",Hamlet,0,0,1
+Let me see.,Hamlet,0,0,1
+"Alas poore Yorick, I knew him Horatio,
+a fellow of infinite Iest; of most excellent fancy, he
+hath borne me on his backe a thousand times: And how
+abhorred my Imagination is, my gorge rises at it.",Hamlet,0,0,1
+"Heere
+hung those lipps, that I haue kist I know not how oft.",Hamlet,0,1,0
+Where be your Iibes now?,Hamlet,0,0,1
+Your Gambals?,Hamlet,0,0,1
+"Your
+Songs?",Hamlet,0,0,1
+"Your flashes of Merriment that were wont to
+set the Table on a Rore?",Hamlet,0,0,1
+"No one now to mock your own
+Ieering?",Hamlet,0,0,1
+Quite chopfalne?,Hamlet,0,0,1
+"Now get you to my Ladies
+Chamber, and tell her, let her paint an inch thicke, to this
+fauour she must come.",Hamlet,0,0,1
+"Make her laugh at that: prythee
+Horatio tell me one thing
+
+   Hor.",Hamlet,0,0,1
+What's that my Lord?,Hamlet,0,0,1
+Ham.,Hamlet,0,0,1
+"Dost thou thinke Alexander lookt o'this fashion
+i'th' earth?",Hamlet,0,1,0
+Hor.,Hamlet,0,0,1
+"E'ene so
+
+   Ham.",Hamlet,0,0,1
+And smelt so?,Hamlet,0,0,1
+"Puh
+
+   Hor.",Hamlet,0,0,1
+"E'ene so, my Lord
+
+   Ham.",Hamlet,0,0,1
+To what base vses we may returne Horatio.,Hamlet,0,0,1
+"Why may not Imagination trace the Noble dust of Alexander,
+till he find it stopping a bunghole
+
+   Hor.",Hamlet,0,0,1
+"'Twere to consider: to curiously to consider so
+
+   Ham.",Hamlet,0,0,1
+"No faith, not a iot.",Hamlet,0,0,1
+"But to follow him thether
+with modestie enough, & likeliehood to lead it; as thus.",Hamlet,0,0,1
+"Alexander died: Alexander was buried: Alexander returneth
+into dust; the dust is earth; of earth we make
+Lome, and why of that Lome (whereto he was conuerted)
+might they not stopp a Beere-barrell?",Hamlet,0,0,1
+"Imperiall Caesar, dead and turn'd to clay,
+Might stop a hole to keepe the winde away.",Hamlet,0,0,1
+"Oh, that that earth, which kept the world in awe,
+Should patch a Wall, t' expell the winters flaw.",Hamlet,0,0,1
+"But soft, but soft, aside; heere comes the King.",Hamlet,0,1,0
+"Enter King, Queene, Laertes, and a Coffin, with Lords attendant.",Hamlet,0,0,1
+"The Queene, the Courtiers.",Hamlet,0,0,1
+"Who is that they follow,
+And with such maimed rites?",Hamlet,0,0,1
+"This doth betoken,
+The Coarse they follow, did with disperate hand,
+Fore do it owne life; 'twas some Estate.",Hamlet,0,0,1
+"Couch we a while, and mark
+
+   Laer.",Hamlet,0,0,1
+What Cerimony else?,Hamlet,0,0,1
+Ham.,Hamlet,0,0,1
+"That is Laertes, a very Noble youth: Marke
+
+   Laer.",Hamlet,0,0,1
+What Cerimony else?,Hamlet,0,0,1
+Priest.,Hamlet,0,0,1
+Her Obsequies haue bin as farre inlarg'd.,Hamlet,0,0,1
+"As we haue warrantie, her death was doubtfull,
+And but that great Command, o're-swaies the order,
+She should in ground vnsanctified haue lodg'd,
+Till the last Trumpet.",Hamlet,0,0,1
+"For charitable praier,
+Shardes, Flints, and Peebles, should be throwne on her:
+Yet heere she is allowed her Virgin Rites,
+Her Maiden strewments, and the bringing home
+Of Bell and Buriall
+
+   Laer.",Hamlet,0,0,1
+Must there no more be done ?,Hamlet,0,0,1
+Priest.,Hamlet,0,0,1
+"No more be done:
+We should prophane the seruice of the dead,
+To sing sage Requiem, and such rest to her
+As to peace-parted Soules
+
+   Laer.",Hamlet,0,0,1
+"Lay her i'th' earth,
+And from her faire and vnpolluted flesh,
+May Violets spring.",Hamlet,0,0,1
+"I tell thee (churlish Priest)
+A Ministring Angell shall my Sister be,
+When thou liest howling?",Hamlet,0,1,0
+Ham.,Hamlet,0,0,1
+"What, the faire Ophelia?",Hamlet,0,0,1
+Queene.,Hamlet,0,0,1
+"Sweets, to the sweet farewell.",Hamlet,0,0,1
+"I hop'd thou should'st haue bin my Hamlets wife:
+I thought thy Bride-bed to haue deckt (sweet Maid)
+And not t'haue strew'd thy Graue
+
+   Laer.",Hamlet,0,0,1
+"Oh terrible woer,
+Fall ten times trebble, on that cursed head
+Whose wicked deed, thy most Ingenious sence
+Depriu'd thee of.",Hamlet,0,0,1
+"Hold off the earth a while,
+Till I haue caught her once more in mine armes:
+
+Leaps in the graue.",Hamlet,0,1,0
+"Now pile your dust, vpon the quicke, and dead,
+Till of this flat a Mountaine you haue made,
+To o're top old Pelion, or the skyish head
+Of blew Olympus
+
+   Ham.",Hamlet,0,0,1
+"What is he, whose griefes
+Beares such an Emphasis?",Hamlet,0,0,1
+"whose phrase of Sorrow
+Coniure the wandring Starres, and makes them stand
+Like wonder-wounded hearers?",Hamlet,0,0,1
+"This is I,
+Hamlet the Dane
+
+   Laer.",Hamlet,0,0,1
+"The deuill take thy soule
+
+   Ham.",Hamlet,0,0,1
+"Thou prai'st not well,
+I prythee take thy fingers from my throat;
+Sir though I am not Spleenatiue, and rash,
+Yet haue I something in me dangerous,
+Which let thy wisenesse feare.",Hamlet,0,1,0
+"Away thy hand
+
+   King.",Hamlet,0,1,0
+"Pluck them asunder
+
+   Qu.",Hamlet,0,0,1
+"Hamlet, Hamlet
+
+   Gen. Good my Lord be quiet
+
+   Ham.",Hamlet,0,0,1
+Why I will fight with him vppon this Theme.,Hamlet,0,1,0
+"Vntill my eielids will no longer wag
+
+   Qu.",Hamlet,0,0,1
+"Oh my Sonne, what Theame?",Hamlet,0,0,1
+Ham.,Hamlet,0,0,1
+"I lou'd Ophelia; fortie thousand Brothers
+Could not (with all there quantitie of Loue)
+Make vp my summe.",Hamlet,0,1,0
+What wilt thou do for her?,Hamlet,0,1,0
+King.,Hamlet,0,0,1
+"Oh he is mad Laertes,
+  Qu.",Hamlet,0,0,1
+"For loue of God forbeare him
+
+   Ham.",Hamlet,0,0,1
+Come show me what thou'lt doe.,Hamlet,0,0,1
+Woo't weepe?,Hamlet,0,0,1
+Woo't fight?,Hamlet,0,0,1
+Woo't teare thy selfe?,Hamlet,0,1,0
+"Woo't drinke vp Esile, eate a Crocodile?",Hamlet,0,0,1
+Ile doo't.,Hamlet,0,0,1
+"Dost thou come heere to whine;
+To outface me with leaping in her Graue?",Hamlet,0,1,0
+"Be buried quicke with her, and so will I.",Hamlet,0,0,1
+"And if thou prate of Mountaines; let them throw
+Millions of Akers on vs; till our ground
+Sindging his pate against the burning Zone,
+Make Ossa like a wart.",Hamlet,0,0,1
+"Nay, and thou'lt mouth,
+Ile rant as well as thou
+
+   Kin.",Hamlet,0,0,1
+"This is meere Madnesse:
+And thus awhile the fit will worke on him:
+Anon as patient as the female Doue,
+When that her Golden Cuplet are disclos'd;
+His silence will sit drooping
+
+   Ham.",Hamlet,0,1,0
+"Heare you Sir:
+What is the reason that you vse me thus?",Hamlet,0,0,1
+"I lou'd you euer; but it is no matter:
+Let Hercules himselfe doe what he may,
+The Cat will Mew, and Dogge will haue his day.",Hamlet,0,1,0
+Enter.,Hamlet,0,0,1
+Kin.,Hamlet,0,0,1
+"I pray you good Horatio wait vpon him,
+Strengthen your patience in our last nights speech,
+Wee'l put the matter to the present push:
+Good Gertrude set some watch ouer your Sonne,
+This Graue shall haue a liuing Monument:
+An houre of quiet shortly shall we see;
+Till then, in patience our proceeding be.",Hamlet,0,1,0
+Exeunt.,Hamlet,0,0,1
+"Enter Hamlet and Horatio
+
+   Ham.",Hamlet,0,0,1
+"So much for this Sir; now let me see the other,
+You doe remember all the Circumstance
+
+   Hor.",Hamlet,0,0,1
+Remember it my Lord?,Hamlet,0,0,1
+Ham.,Hamlet,0,0,1
+"Sir, in my heart there was a kinde of fighting,
+That would not let me sleepe; me thought I lay
+Worse then the mutines in the Bilboes, rashly,
+(And praise be rashnesse for it) let vs know,
+Our indiscretion sometimes serues vs well,
+When our deare plots do paule, and that should teach vs,
+There's a Diuinity that shapes our ends,
+Rough-hew them how we will
+
+   Hor.",Hamlet,0,1,0
+"That is most certaine
+
+   Ham.",Hamlet,0,0,1
+"Vp from my Cabin
+My sea-gowne scarft about me in the darke,
+Grop'd I to finde out them; had my desire,
+Finger'd their Packet, and in fine, withdrew
+To mine owne roome againe, making so bold,
+(My feares forgetting manners) to vnseale
+Their grand Commission, where I found Horatio,
+Oh royall knauery: An exact command,
+Larded with many seuerall sorts of reason;
+Importing Denmarks health, and Englands too,
+With hoo, such Bugges and Goblins in my life,
+That on the superuize no leasure bated,
+No not to stay the grinding of the Axe,
+My head should be struck off
+
+   Hor.",Hamlet,0,1,0
+Ist possible?,Hamlet,0,0,1
+Ham.,Hamlet,0,0,1
+"Here's the Commission, read it at more leysure:
+But wilt thou heare me how I did proceed?",Hamlet,0,1,0
+Hor.,Hamlet,0,0,1
+"I beseech you
+
+   Ham.",Hamlet,0,0,1
+"Being thus benetted round with Villaines,
+Ere I could make a Prologue to my braines,
+They had begun the Play.",Hamlet,0,1,0
+"I sate me downe,
+Deuis'd a new Commission, wrote it faire,
+I once did hold it as our Statists doe,
+A basenesse to write faire; and laboured much
+How to forget that learning: but Sir now,
+It did me Yeomans seriuce: wilt thou know
+The effects of what I wrote?",Hamlet,0,1,0
+Hor.,Hamlet,0,0,1
+"I, good my Lord
+
+   Ham.",Hamlet,0,0,1
+"An earnest Coniuration from the King,
+As England was his faithfull Tributary,
+As loue betweene them, as the Palme should flourish,
+As Peace should still her wheaten Garland weare,
+And stand a Comma 'tweene their amities,
+And many such like Assis of great charge,
+That on the view and know of these Contents,
+Without debatement further, more or lesse,
+He should the bearers put to sodaine death,
+Not shriuing time allowed
+
+   Hor.",Hamlet,0,0,1
+How was this seal'd?,Hamlet,0,0,1
+Ham.,Hamlet,0,0,1
+"Why, euen in that was Heauen ordinate;
+I had my fathers Signet in my Purse,
+Which was the Modell of that Danish Seale:
+Folded the Writ vp in forme of the other,
+Subscrib'd it, gau't th' impression, plac't it safely,
+The changeling neuer knowne: Now, the next day
+Was our Sea Fight, and what to this was sement,
+Thou know'st already
+
+   Hor.",Hamlet,0,0,1
+"So Guildensterne and Rosincrance, go too't
+
+   Ham.",Hamlet,0,0,1
+"Why man, they did make loue to this imployment
+They are not neere my Conscience; their debate
+Doth by their owne insinuation grow:
+'Tis dangerous, when the baser nature comes
+Betweene the passe, and fell incensed points
+Of mighty opposites
+
+   Hor.",Hamlet,0,0,1
+"Why, what a King is this?",Hamlet,0,0,1
+Ham.,Hamlet,0,0,1
+"Does it not, thinkst thee, stand me now vpon
+He that hath kil'd my King, and whor'd my Mother,
+Popt in betweene th' election and my hopes,
+Throwne out his Angle for my proper life,
+And with such coozenage; is't not perfect conscience,
+To quit him with this arme?",Hamlet,0,0,1
+"And is't not to be damn'd
+To let this Canker of our nature come
+In further euill
+
+   Hor.",Hamlet,0,0,1
+"It must be shortly knowne to him from England
+What is the issue of the businesse there
+
+   Ham.",Hamlet,0,0,1
+"It will be short,
+The interim's mine, and a mans life's no more
+Then to say one: but I am very sorry good Horatio,
+That to Laertes I forgot my selfe;
+For by the image of my Cause, I see
+The Portraiture of his; Ile count his fauours:
+But sure the brauery of his griefe did put me
+Into a Towring passion
+
+   Hor.",Hamlet,0,1,0
+"Peace, who comes heere?",Hamlet,0,0,1
+Enter young Osricke.,Hamlet,0,0,1
+Osr.,Hamlet,0,0,1
+"Your Lordship is right welcome back to Denmarke
+
+   Ham.",Hamlet,0,0,1
+"I humbly thank you Sir, dost know this waterflie?",Hamlet,0,0,1
+Hor.,Hamlet,0,0,1
+"No my good Lord
+
+   Ham.",Hamlet,0,0,1
+"Thy state is the more gracious; for 'tis a vice to
+know him: he hath much Land, and fertile; let a Beast
+be Lord of Beasts, and his Crib shall stand at the Kings
+Messe; 'tis a Chowgh; but as I saw spacious in the possession
+of dirt
+
+   Osr.",Hamlet,0,1,0
+"Sweet Lord, if your friendship were at leysure,
+I should impart a thing to you from his Maiesty
+
+   Ham.",Hamlet,0,0,1
+"I will receiue it with all diligence of spirit; put
+your Bonet to his right vse, 'tis for the head
+
+   Osr.",Hamlet,0,0,1
+"I thanke your Lordship, 'tis very hot
+
+   Ham.",Hamlet,0,0,1
+"No, beleeue mee 'tis very cold, the winde is
+Northerly
+
+   Osr.",Hamlet,0,0,1
+"It is indifferent cold my Lord indeed
+
+   Ham.",Hamlet,0,0,1
+"Mee thinkes it is very soultry, and hot for my
+Complexion
+
+   Osr.",Hamlet,0,0,1
+"Exceedingly, my Lord, it is very soultry, as 'twere
+I cannot tell how: but my Lord, his Maiesty bad me signifie
+to you, that he ha's laid a great wager on your head:
+Sir, this is the matter
+
+   Ham.",Hamlet,0,0,1
+"I beseech you remember
+
+   Osr.",Hamlet,0,0,1
+"Nay, in good faith, for mine ease in good faith:
+Sir, you are not ignorant of what excellence Laertes is at
+his weapon
+
+   Ham.",Hamlet,0,0,1
+What's his weapon?,Hamlet,0,0,1
+Osr.,Hamlet,0,0,1
+"Rapier and dagger
+
+   Ham.",Hamlet,0,0,1
+"That's two of his weapons; but well
+
+   Osr.",Hamlet,0,0,1
+"The sir King ha's wag'd with him six Barbary horses,
+against the which he impon'd as I take it, sixe French
+Rapiers and Poniards, with their assignes, as Girdle,
+Hangers or so: three of the Carriages infaith are very
+deare to fancy, very responsiue to the hilts, most delicate
+carriages, and of very liberall conceit
+
+   Ham.",Hamlet,0,1,0
+What call you the Carriages?,Hamlet,0,0,1
+Osr.,Hamlet,0,0,1
+"The Carriages Sir, are the hangers
+
+   Ham.",Hamlet,0,0,1
+"The phrase would bee more Germaine to the
+matter: If we could carry Cannon by our sides; I would
+it might be Hangers till then; but on sixe Barbary Horses
+against sixe French Swords: their Assignes, and three
+liberall conceited Carriages, that's the French but against
+the Danish; why is this impon'd as you call it?",Hamlet,0,1,0
+Osr.,Hamlet,0,0,1
+"The King Sir, hath laid that in a dozen passes betweene
+you and him, hee shall not exceed you three hits;
+He hath one twelue for mine, and that would come to
+imediate tryall, if your Lordship would vouchsafe the
+Answere
+
+   Ham.",Hamlet,0,0,1
+How if I answere no?,Hamlet,0,0,1
+Osr.,Hamlet,0,0,1
+"I meane my Lord, the opposition of your person
+in tryall
+
+   Ham.",Hamlet,0,0,1
+"Sir, I will walke heere in the Hall; if it please
+his Maiestie, 'tis the breathing time of day with me; let
+the Foyles bee brought, the Gentleman willing, and the
+King hold his purpose; I will win for him if I can: if
+not, Ile gaine nothing but my shame, and the odde hits
+
+   Osr.",Hamlet,0,0,1
+Shall I redeliuer you ee'n so?,Hamlet,0,1,0
+Ham.,Hamlet,0,0,1
+"To this effect Sir, after what flourish your nature
+will
+
+   Osr.",Hamlet,0,0,1
+"I commend my duty to your Lordship
+
+   Ham.",Hamlet,0,0,1
+"Yours, yours; hee does well to commend it
+himselfe, there are no tongues else for's tongue
+
+   Hor.",Hamlet,0,0,1
+"This Lapwing runs away with the shell on his
+head
+
+   Ham.",Hamlet,0,0,1
+"He did Complie with his Dugge before hee
+suck't it: thus had he and mine more of the same Beauty
+that I know the drossie age dotes on; only got the tune of
+the time, and outward habite of encounter, a kinde of
+yesty collection, which carries them through & through
+the most fond and winnowed opinions; and doe but blow
+them to their tryalls: the Bubbles are out
+
+   Hor.",Hamlet,0,1,0
+"You will lose this wager, my Lord
+
+   Ham.",Hamlet,0,0,1
+"I doe not thinke so, since he went into France,
+I haue beene in continuall practice; I shall winne at the
+oddes: but thou wouldest not thinke how all heere about
+my heart: but it is no matter
+
+   Hor.",Hamlet,0,1,0
+"Nay, good my Lord
+
+   Ham.",Hamlet,0,0,1
+"It is but foolery; but it is such a kinde of
+gain-giuing as would perhaps trouble a woman
+
+   Hor.",Hamlet,0,0,1
+"If your minde dislike any thing, obey.",Hamlet,0,0,1
+"I will forestall
+their repaire hither, and say you are not fit
+
+   Ham.",Hamlet,0,0,1
+"Not a whit, we defie Augury; there's a speciall
+Prouidence in the fall of a sparrow.",Hamlet,0,0,1
+"If it be now, 'tis not
+to come: if it bee not to come, it will bee now: if it
+be not now; yet it will come; the readinesse is all, since no
+man ha's ought of what he leaues.",Hamlet,0,0,1
+What is't to leaue betimes?,Hamlet,0,0,1
+"Enter King, Queene, Laertes and Lords, with other Attendants with
+Foyles,
+and Gauntlets, a Table and Flagons of Wine on it.",Hamlet,0,0,1
+Kin.,Hamlet,0,0,1
+"Come Hamlet, come, and take this hand from me
+
+   Ham.",Hamlet,0,0,1
+"Giue me your pardon Sir, I'ue done you wrong,
+But pardon't as you are a Gentleman.",Hamlet,0,0,1
+"This presence knowes,
+And you must needs haue heard how I am punisht
+With sore distraction?",Hamlet,0,1,0
+"What I haue done
+That might your nature honour, and exception
+Roughly awake, I heere proclaime was madnesse:
+Was't Hamlet wrong'd Laertes?",Hamlet,0,1,0
+Neuer Hamlet.,Hamlet,0,0,1
+"If Hamlet from himselfe be tane away:
+And when he's not himselfe, do's wrong Laertes,
+Then Hamlet does it not, Hamlet denies it:
+Who does it then?",Hamlet,0,0,1
+His Madnesse?,Hamlet,0,0,1
+"If't be so,
+Hamlet is of the Faction that is wrong'd,
+His madnesse is poore Hamlets Enemy.",Hamlet,0,0,1
+"Sir, in this Audience,
+Let my disclaiming from a purpos'd euill,
+Free me so farre in your most generous thoughts,
+That I haue shot mine Arrow o're the house,
+And hurt my Mother
+
+   Laer.",Hamlet,0,1,0
+"I am satisfied in Nature,
+Whose motiue in this case should stirre me most
+To my Reuenge.",Hamlet,0,0,1
+"But in my termes of Honor
+I stand aloofe, and will no reconcilement,
+Till by some elder Masters of knowne Honor,
+I haue a voyce, and president of peace
+To keepe my name vngorg'd.",Hamlet,0,1,0
+"But till that time,
+I do receiue your offer'd loue like loue,
+And wil not wrong it
+
+   Ham.",Hamlet,0,0,1
+"I do embrace it freely,
+And will this Brothers wager frankely play.",Hamlet,0,0,1
+"Giue vs the Foyles: Come on
+
+   Laer.",Hamlet,0,0,1
+"Come one for me
+
+   Ham.",Hamlet,0,0,1
+"Ile be your foile Laertes, in mine ignorance,
+Your Skill shall like a Starre i'th' darkest night,
+Sticke fiery off indeede
+
+   Laer.",Hamlet,0,0,1
+"You mocke me Sir
+
+   Ham.",Hamlet,0,0,1
+"No by this hand
+
+   King.",Hamlet,0,0,1
+"Giue them the Foyles yong Osricke,
+Cousen Hamlet, you know the wager
+
+   Ham.",Hamlet,0,0,1
+"Verie well my Lord,
+Your Grace hath laide the oddes a'th' weaker side
+
+   King.",Hamlet,0,0,1
+"I do not feare it,
+I haue seene you both:
+But since he is better'd, we haue therefore oddes
+
+   Laer.",Hamlet,0,1,0
+"This is too heauy,
+Let me see another
+
+   Ham.",Hamlet,0,0,1
+"This likes me well,
+These Foyles haue all a length.",Hamlet,0,0,1
+Prepare to play.,Hamlet,0,0,1
+Osricke.,Hamlet,0,0,1
+"I my good Lord
+
+   King.",Hamlet,0,0,1
+"Set me the Stopes of wine vpon that Table:
+If Hamlet giue the first, or second hit,
+Or quit in answer of the third exchange,
+Let all the Battlements their Ordinance fire,
+The King shal drinke to Hamlets better breath,
+And in the Cup an vnion shal he throw
+Richer then that, which foure successiue Kings
+In Denmarkes Crowne haue worne.",Hamlet,0,0,1
+"Giue me the Cups,
+And let the Kettle to the Trumpets speake,
+The Trumpet to the Cannoneer without,
+The Cannons to the Heauens, the Heauen to Earth,
+Now the King drinkes to Hamlet.",Hamlet,0,1,0
+"Come, begin,
+And you the Iudges beare a wary eye
+
+   Ham.",Hamlet,0,0,1
+"Come on sir
+
+   Laer.",Hamlet,0,0,1
+Come on sir.,Hamlet,0,0,1
+They play.,Hamlet,0,0,1
+Ham.,Hamlet,0,0,1
+"One
+
+   Laer.",Hamlet,0,0,1
+"No
+
+   Ham.",Hamlet,0,0,1
+"Iudgement
+
+   Osr.",Hamlet,0,0,1
+"A hit, a very palpable hit
+
+   Laer.",Hamlet,0,0,1
+"Well: againe
+
+   King.",Hamlet,0,0,1
+"Stay, giue me drinke.",Hamlet,0,0,1
+"Hamlet, this Pearle is thine,
+Here's to thy health.",Hamlet,0,0,1
+"Giue him the cup,
+
+Trumpets sound, and shot goes off.",Hamlet,0,0,1
+Ham.,Hamlet,0,0,1
+"Ile play this bout first, set by a-while.",Hamlet,0,0,1
+Come: Another hit; what say you?,Hamlet,0,0,1
+Laer.,Hamlet,0,0,1
+"A touch, a touch, I do confesse
+
+   King.",Hamlet,0,0,1
+"Our Sonne shall win
+
+   Qu.",Hamlet,0,0,1
+"He's fat, and scant of breath.",Hamlet,0,0,1
+"Heere's a Napkin, rub thy browes,
+The Queene Carowses to thy fortune, Hamlet
+
+   Ham.",Hamlet,0,0,1
+"Good Madam
+
+   King.",Hamlet,0,0,1
+"Gertrude, do not drinke
+
+   Qu.",Hamlet,0,0,1
+"I will my Lord;
+I pray you pardon me
+
+   King.",Hamlet,0,1,0
+"It is the poyson'd Cup, it is too late
+
+   Ham.",Hamlet,0,0,1
+"I dare not drinke yet Madam,
+By and by
+
+   Qu.",Hamlet,0,1,0
+"Come, let me wipe thy face
+
+   Laer.",Hamlet,0,0,1
+"My Lord, Ile hit him now
+
+   King.",Hamlet,0,1,0
+"I do not thinke't
+
+   Laer.",Hamlet,0,0,1
+"And yet 'tis almost 'gainst my conscience
+
+   Ham.",Hamlet,0,0,1
+Come for the third.,Hamlet,0,0,1
+"Laertes, you but dally,
+I pray you passe with your best violence,
+I am affear'd you make a wanton of me
+
+   Laer.",Hamlet,0,1,0
+Say you so?,Hamlet,0,0,1
+Come on.,Hamlet,0,0,1
+Play.,Hamlet,0,0,1
+Osr.,Hamlet,0,0,1
+"Nothing neither way
+
+   Laer.",Hamlet,0,0,1
+Haue at you now.,Hamlet,0,0,1
+In scuffling they change Rapiers.,Hamlet,0,0,1
+King.,Hamlet,0,0,1
+"Part them, they are incens'd
+
+   Ham.",Hamlet,0,0,1
+"Nay come, againe
+
+   Osr.",Hamlet,0,0,1
+"Looke to the Queene there hoa
+
+   Hor.",Hamlet,0,0,1
+They bleed on both sides.,Hamlet,0,0,1
+How is't my Lord?,Hamlet,0,0,1
+Osr.,Hamlet,0,0,1
+How is't Laertes?,Hamlet,0,0,1
+Laer.,Hamlet,0,0,1
+"Why as a Woodcocke
+To mine Sprindge, Osricke,
+I am iustly kill'd with mine owne Treacherie
+
+   Ham.",Hamlet,0,1,0
+How does the Queene?,Hamlet,0,0,1
+King.,Hamlet,0,0,1
+"She sounds to see them bleede
+
+   Qu.",Hamlet,0,0,1
+"No, no, the drinke, the drinke.",Hamlet,0,0,1
+"Oh my deere Hamlet, the drinke, the drinke,
+I am poyson'd
+
+   Ham.",Hamlet,0,0,1
+Oh Villany!,Hamlet,0,0,1
+How?,Hamlet,0,0,1
+Let the doore be lock'd.,Hamlet,0,0,1
+"Treacherie, seeke it out
+
+   Laer.",Hamlet,0,0,1
+It is heere Hamlet.,Hamlet,0,0,1
+"Hamlet, thou art slaine,
+No Medicine in the world can do thee good.",Hamlet,0,1,0
+"In thee, there is not halfe an houre of life;
+The Treacherous Instrument is in thy hand,
+Vnbated and envenom'd: the foule practise
+Hath turn'd it selfe on me.",Hamlet,0,1,0
+"Loe, heere I lye,
+Neuer to rise againe: Thy Mothers poyson'd:
+I can no more, the King, the King's too blame
+
+   Ham.",Hamlet,0,0,1
+"The point envenom'd too,
+Then venome to thy worke.",Hamlet,0,0,1
+Hurts the King.,Hamlet,0,0,1
+All.,Hamlet,0,0,1
+"Treason, Treason
+
+   King.",Hamlet,0,0,1
+"O yet defend me Friends, I am but hurt
+
+   Ham.",Hamlet,0,0,1
+"Heere thou incestuous, murdrous,
+Damned Dane,
+Drinke off this Potion: Is thy Vnion heere?",Hamlet,0,0,1
+Follow my Mother.,Hamlet,0,0,1
+King Dyes.,Hamlet,0,0,1
+Laer.,Hamlet,0,0,1
+He is iustly seru'd.,Hamlet,0,0,1
+"It is a poyson temp'red by himselfe:
+Exchange forgiuenesse with me, Noble Hamlet;
+Mine and my Fathers death come not vpon thee,
+Nor thine on me.",Hamlet,0,0,1
+Dyes.,Hamlet,0,0,1
+Ham.,Hamlet,0,0,1
+"Heauen make thee free of it, I follow thee.",Hamlet,0,0,1
+"I am dead Horatio, wretched Queene adiew,
+You that looke pale, and tremble at this chance,
+That are but Mutes or audience to this acte:
+Had I but time (as this fell Sergeant death
+Is strick'd in his Arrest) oh I could tell you.",Hamlet,0,1,0
+"But let it be: Horatio, I am dead,
+Thou liu'st, report me and my causes right
+To the vnsatisfied
+
+   Hor.",Hamlet,0,1,0
+Neuer beleeue it.,Hamlet,0,0,1
+"I am more an Antike Roman then a Dane:
+Heere's yet some Liquor left
+
+   Ham.",Hamlet,0,0,1
+"As th'art a man, giue me the Cup.",Hamlet,0,0,1
+"Let go, by Heauen Ile haue't.",Hamlet,0,0,1
+"Oh good Horatio, what a wounded name,
+(Things standing thus vnknowne) shall liue behind me.",Hamlet,0,0,1
+"If thou did'st euer hold me in thy heart,
+Absent thee from felicitie awhile,
+And in this harsh world draw thy breath in paine,
+To tell my Storie.",Hamlet,0,1,0
+"March afarre off, and shout within.",Hamlet,0,0,1
+What warlike noyse is this?,Hamlet,0,0,1
+Enter Osricke.,Hamlet,0,0,1
+Osr.,Hamlet,0,0,1
+"Yong Fortinbras, with conquest come fro[m] Poland
+To th' Ambassadors of England giues this warlike volly
+
+   Ham.",Hamlet,0,0,1
+"O I dye Horatio:
+The potent poyson quite ore-crowes my spirit,
+I cannot liue to heare the Newes from England,
+But I do prophesie th' election lights
+On Fortinbras, he ha's my dying voyce,
+So tell him with the occurrents more and lesse,
+Which haue solicited.",Hamlet,0,1,0
+The rest is silence.,Hamlet,0,0,1
+"O, o, o, o.
+
+Dyes
+
+  Hora.",Hamlet,0,0,1
+"Now cracke a Noble heart:
+Goodnight sweet Prince,
+And flights of Angels sing thee to thy rest,
+Why do's the Drumme come hither?",Hamlet,0,0,1
+"Enter Fortinbras and English Ambassador, with Drumme, Colours,
+and
+Attendants.",Hamlet,0,0,1
+Fortin.,Hamlet,0,0,1
+Where is this sight?,Hamlet,0,0,1
+Hor.,Hamlet,0,0,1
+"What is it ye would see;
+If ought of woe, or wonder, cease your search
+
+   For.",Hamlet,0,0,1
+His quarry cries on hauocke.,Hamlet,0,0,1
+"Oh proud death,
+What feast is toward in thine eternall Cell.",Hamlet,0,0,1
+"That thou so many Princes, at a shoote,
+So bloodily hast strooke
+
+   Amb.",Hamlet,0,0,1
+"The sight is dismall,
+And our affaires from England come too late,
+The eares are senselesse that should giue vs hearing,
+To tell him his command'ment is fulfill'd,
+That Rosincrance and Guildensterne are dead:
+Where should we haue our thankes?",Hamlet,0,0,1
+Hor.,Hamlet,0,0,1
+"Not from his mouth,
+Had it th' abilitie of life to thanke you:
+He neuer gaue command'ment for their death.",Hamlet,0,0,1
+"But since so iumpe vpon this bloodie question,
+You from the Polake warres, and you from England
+Are heere arriued.",Hamlet,0,1,0
+"Giue order that these bodies
+High on a stage be placed to the view,
+And let me speake to th' yet vnknowing world,
+How these things came about.",Hamlet,0,1,0
+"So shall you heare
+Of carnall, bloudie, and vnnaturall acts,
+Of accidentall iudgements, casuall slaughters
+Of death's put on by cunning, and forc'd cause,
+And in this vpshot, purposes mistooke,
+Falne on the Inuentors head.",Hamlet,0,0,1
+"All this can I
+Truly deliuer
+
+   For.",Hamlet,0,0,1
+"Let vs hast to heare it,
+And call the Noblest to the Audience.",Hamlet,0,1,0
+"For me, with sorrow, I embrace my Fortune,
+I haue some Rites of memory in this Kingdome,
+Which are to claime, my vantage doth
+Inuite me,
+  Hor.",Hamlet,0,1,0
+"Of that I shall haue alwayes cause to speake,
+And from his mouth
+Whose voyce will draw on more:
+But let this same be presently perform'd,
+Euen whiles mens mindes are wilde,
+Lest more mischance
+On plots, and errors happen
+
+   For.",Hamlet,0,1,0
+"Let foure Captaines
+Beare Hamlet like a Soldier to the Stage,
+For he was likely, had he beene put on
+To haue prou'd most royally:
+And for his passage,
+The Souldiours Musicke, and the rites of Warre
+Speake lowdly for him.",Hamlet,0,0,1
+"Take vp the body; Such a sight as this
+Becomes the Field, but heere shewes much amis.",Hamlet,0,0,1
+"Go, bid the Souldiers shoote.",Hamlet,0,0,1
+Exeunt.,Hamlet,0,0,1
+"Marching: after the which, a Peale of Ordenance are shot
+off.",Hamlet,0,0,1
+FINIS.,Hamlet,0,0,1
+"The tragedie of HAMLET, Prince of Denmarke.",Hamlet,0,0,1
